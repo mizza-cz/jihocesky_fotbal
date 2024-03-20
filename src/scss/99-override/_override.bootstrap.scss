@@ -4,5 +4,16 @@
   margin: 0 auto;
   padding: 0 16px;
 }
-
+.hidden-mobile {
+  display: block;
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
+}
+.hidden-desktop {
+  display: none;
+  @include media-breakpoint-down(lg) {
+    display: block;
+  }
+}
 /*! purgecss end ignore */
