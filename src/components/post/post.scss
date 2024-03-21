@@ -59,7 +59,7 @@
   }
   &__info {
     @include media-breakpoint-down(lg) {
-      padding: 24px;
+      padding: 24px 0px;
     }
   }
   .post__img {

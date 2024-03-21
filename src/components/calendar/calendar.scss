@@ -1,0 +1,33 @@
+.calendar {
+  margin-top: 20px;
+  &__content {
+    padding: 32px 32px;
+    background-color: var(--color-light);
+    @include media-breakpoint-down(lg) {
+      padding: 28px 20px;
+    }
+  }
+  &__navigation {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--color-primary);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    a {
+      display: block;
+      svg {
+        object-fit: contain;
+        height: 40px;
+        width: 40px;
+      }
+    }
+    span {
+      font-size: 32px;
+      display: block;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+  }
+}
