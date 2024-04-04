@@ -1,4 +1,4 @@
-$(".topstory").slick({
+$(".boardSection__slider").slick({
   infinite: !0,
   arrows: !1,
   dots: !0,

@@ -1,0 +1,219 @@
+.scoreboard-container .scoreboard__item__info,
+.scoreboard-container .scoreboard__item__score,
+.scoreboard-container .scoreboard__item__team {
+  font-weight: 700;
+  font-style: normal;
+}
+.content table.table tr th a {
+  color: #000;
+}
+.content table.table tr td {
+  border-bottom: 1px solid #d0d0d0;
+}
+.content table.table tr:hover td {
+  margin: 0;
+}
+.scoreboard-container {
+  background-color: #8a8a8a;
+  height: 170px;
+  overflow: hidden;
+}
+
+.scoreboard-container .scoreboard {
+  padding: 0;
+  position: relative;
+}
+@media (min-width: 550px) {
+  .scoreboard-container .scoreboard {
+    padding: 0 30px;
+  }
+  .scoreboard-container .scoreboard__carousel {
+    border-left: 2px solid var(--color-primary);
+    border-right: 2px solid var(--color-primary);
+  }
+}
+.scoreboard-container .scoreboard__carousel .slick-next,
+.scoreboard-container .scoreboard__carousel .slick-prev {
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-position: center center;
+}
+.scoreboard-container .scoreboard__carousel .slick-next:before,
+.scoreboard-container .scoreboard__carousel .slick-prev:before {
+  content: "";
+}
+.scoreboard-container .scoreboard__carousel .slick-prev {
+  background-image: url(../images/ico/ico-arrow_left.svg);
+}
+.scoreboard-container .scoreboard__carousel .slick-next {
+  background-image: url(../images/ico/ico-arrow_right.svg);
+}
+.scoreboard-container .scoreboard__item {
+  border-right: 2px solid var(--color-primary);
+  box-sizing: border-box;
+  padding: 12px 0 5px;
+  height: 169px;
+  color: #fff;
+  text-align: center;
+  line-height: 19.2px;
+  line-height: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.scoreboard-container .scoreboard__item div {
+  width: 100%;
+}
+.scoreboard-container .scoreboard__item__team {
+  padding: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+}
+.scoreboard-container .scoreboard__item__score {
+  padding: 5px 0 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+}
+.scoreboard-container .scoreboard__item__score .ico {
+  background-position: center center;
+  margin-top: 3px;
+}
+.scoreboard-container .scoreboard__item__score .ico.ico-tv_ct4 {
+  width: 80px;
+  height: 13px;
+}
+.scoreboard-container .scoreboard__item__score .ico.ico-tv_sporttotal {
+  width: 80px;
+}
+.scoreboard-container .scoreboard__item__score .ico.ico-play_yellow {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+}
+.scoreboard-container .scoreboard__item__score .ico.ico-fortuna_white {
+  width: 80px;
+  height: 13px;
+}
+.scoreboard-container .scoreboard__item__score span {
+  font-size: 11.2px;
+  font-size: 0.7rem;
+}
+.scoreboard-container .scoreboard__item__score a {
+  display: inline-block;
+  font-size: 22px;
+  font-size: 1.375rem;
+  color: var(--color-primary);
+}
+
+.scoreboard-container .scoreboard__item__info {
+  padding: 5px 0 0;
+  font-size: 18px;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  color: var(--color-primary);
+}
+.scoreboard-container .scoreboard__item__betting,
+.scoreboard-container .scoreboard__item__date {
+  -webkit-font-kerning: normal;
+  font-style: normal;
+  font-weight: 400;
+}
+.scoreboard-container .scoreboard__item__info a {
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.scoreboard-container .scoreboard__item__tv {
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scoreboard-container .scoreboard__item__tv a {
+  line-height: 0;
+}
+.scoreboard-container .scoreboard__item__date {
+  padding: 5px 0 0;
+  font-size: 20px;
+
+  font-kerning: normal;
+}
+.scoreboard-container .scoreboard__item__betting {
+  padding: 7px 0 0;
+  font-size: 1rem;
+  font-kerning: normal;
+}
+.scoreboard-container .scoreboard__item__betting .ico {
+  max-width: 92px;
+  width: 100%;
+  height: 18px;
+}
+.scoreboard-container .scoreboard__item__betting span a {
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 2px 4px 0;
+  margin: 0 3px;
+  border: 1px solid var(--color-primary);
+  font-weight: 700;
+  font-style: normal;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  color: var(--color-primary);
+  text-decoration: none;
+  line-height: 17.6px;
+  line-height: 1.1rem;
+}
+
+.scoreboard {
+  .slick-next,
+  .slick-prev {
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: 0 0;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    border: none;
+    outline: 0;
+  }
+  .slick-dots,
+  .slick-next,
+  .slick-prev {
+    position: absolute;
+    display: block;
+    padding: 0;
+  }
+  .slick-prev {
+    left: -25px;
+  }
+  .slick-next {
+    right: -25px;
+  }
+}
+
+.scoreboard__logos {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+.scoreboard__logo {
+  height: 40px;
+  width: 40px !important;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
