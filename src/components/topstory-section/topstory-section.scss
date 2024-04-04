@@ -107,6 +107,7 @@
     font-style: normal;
     margin: 4px 0 0 0;
     font-size: 40px;
+    padding-right: 16px;
     line-height: 1.175;
     text-transform: uppercase;
     color: var(--color-light);
@@ -125,5 +126,67 @@
     .tag {
       color: var(--color-light);
     }
+  }
+}
+
+.topstoryNews {
+  margin-top: -7px;
+  @include media-breakpoint-down(md) {
+    margin-top: 8px;
+  }
+  &__inner {
+    overflow: hidden;
+    display: flex;
+
+    position: relative;
+    background-color: var(--color-light);
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__item {
+    height: 100%;
+    font-weight: 500;
+  }
+  &__title {
+    color: var(--color-light);
+    background-color: var(--color-primary);
+    padding: 8px 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: max-content;
+    white-space: nowrap;
+    height: fit-content;
+  }
+  &__slider {
+    position: relative;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    @include media-breakpoint-down(lg) {
+      padding-left: 68px;
+    }
+  }
+  .slider__btn {
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    overflow: none;
+    position: absolute;
+    top: 8px;
+  }
+  .slider__btnprev {
+    left: 12px;
+  }
+  .slider__btnnext {
+    left: 32px;
+  }
+  .slick-track {
   }
 }
