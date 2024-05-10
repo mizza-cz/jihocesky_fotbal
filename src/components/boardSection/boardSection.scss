@@ -27,35 +27,42 @@
 .boardSection__slider {
   position: relative;
   margin-bottom: 28px;
-  .slick-dots {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    justify-content: center;
-    @include media-breakpoint-down(md) {
-      position: relative;
-      bottom: 0;
-      margin-top: 0;
-    }
-  }
+  // .slick-dots {
+  //   position: absolute;
+  //   bottom: 20px;
+  //   left: 0;
+  //   right: 0;
+  //   justify-content: center;
+  //   @include media-breakpoint-down(md) {
+  //     position: relative;
+  //     bottom: 0;
+  //     margin-top: 0;
+  //   }
+  // }
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .boardGallery {
   &__item {
     height: auto;
     width: 100%;
-    aspect-ratio: 1920/940;
+    aspect-ratio: 448/300;
     display: block;
     position: relative;
+    max-width: 50%;
+    flex: 0 50%;
+    border: 1px solid var(--color-primary);
     &:hover {
       h3 {
         text-decoration-color: var(--color-light);
       }
     }
 
-    @include media-breakpoint-down(lg) {
-      aspect-ratio: 750/500;
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+      flex: 100%;
     }
     img {
       width: 100%;
@@ -93,7 +100,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 20px 40px;
+    padding: 0 20px 24px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: absolute;
@@ -105,15 +112,11 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    @include media-breakpoint-down(md) {
-      padding-bottom: 24px;
-    }
     .tag {
       margin: 0 auto;
     }
   }
   &__content {
-    margin-bottom: 40px;
     display: block;
     display: flex;
     flex-direction: column;
@@ -126,16 +129,12 @@
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    margin-bottom: 12px;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.175;
     text-transform: uppercase;
     color: var(--color-light);
     text-decoration: underline;
     transition: all 0.3s;
     text-decoration-color: transparent;
-    @include media-breakpoint-down(lg) {
-      font-size: 24px;
-    }
   }
 }
