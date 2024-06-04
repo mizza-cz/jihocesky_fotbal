@@ -1,7 +1,6 @@
 {% extends "@components/base/base.twig" %} {% set title = "01.0_homepage" %} {%
-block main %} 
-{% include "@components/scoreboard/scoreboard.twig" %}
-{% include "@components/topstory-section/topstory-section.twig" %}
+block main %} {% include "@components/scoreboard/scoreboard.twig" %} {% include
+"@components/topstory-section/topstory-section.twig" %}
 <div class="my-4">
   <div class="container">
     <a class="pub" href="#" target="_blank">
@@ -13,4 +12,5 @@ block main %}
 "@components/hp-statistics/hp-statistics.twig" %} {% include
 "@components/boardSection/boardSection.twig" %} {% include
 "@components/hp-video/hp-video.twig" %} {% include
-"@components/calendarSlider/calendarSlider.twig" %} {% endblock %}
+"@components/calendarSlider/calendarSlider.twig" %} {% include
+"@components/partnersSlider/partnersSlider.twig" %} {% endblock %}

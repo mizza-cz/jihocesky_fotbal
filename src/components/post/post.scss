@@ -3,9 +3,10 @@
   text-decoration-color: transparent;
   height: 100%;
   overflow: hidden;
+  position: relative;
   &:hover {
     .h4 {
-      text-decoration-color: var(--color-dark);
+      text-decoration-color: var(--color-light);
     }
   }
   .h4 {
@@ -13,11 +14,27 @@
     text-decoration-color: transparent;
     transition: all 0.3s;
     text-transform: uppercase;
+    color: var(--color-light);
   }
   &__img {
     width: 100%;
     position: relative;
-    aspect-ratio: 750/500;
+    aspect-ratio: 346/460;
+    @include media-breakpoint-down(xl) {
+      aspect-ratio: 346/320;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(18, 22, 25, 0),
+        #121619
+      );
+    }
     img {
       width: 100%;
       height: 100%;
@@ -36,9 +53,12 @@
     left: 0;
   }
   &__info {
-    background-color: var(--color-light);
+    // background-color: var(--color-light);
     padding: 16px;
-    height: 100%;
+    // height: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
   }
 }
 
