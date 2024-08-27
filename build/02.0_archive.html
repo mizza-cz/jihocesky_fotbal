@@ -234,59 +234,41 @@
 							<div class="archive-section__content">
 								<h1 class="h1 mb-4">ARCHIV ČLÁNKŮ</h1>
 								<div class="header-section">
-									<div class="row gy-3">
-										<div class="col-md-6">
-											<form action="" class="header-section__form header-section__label">
+									<form action="/article/" method="get" class="header-section__form header-section__label">
+										<div class="row gy-3">
+											<div class="col-md-6">
 												<div class="header-section__category">Vyhledávání</div>
 												<div class="header-section__input">
-													<input type="text" placeholder="Hledaný text" />
-													<button class="header-section__btn">
+													<input type="text" name="search" placeholder="Hledaný text" />
+													<button type="submit" class="header-section__btn">
 														<img src="images/ico/search-menu.svg" loading="lazy" alt="search-menu" />
 													</button>
 												</div>
-											</form>
+											</div>
+											<div class="col-md-3 col-sm-6">
+												<div class="o-select header-section__label">
+													<div class="header-section__category">Kategorie</div>
+													<select name="category" class="js-select">
+														<option value="">Kategorie</option>
+														<option value="aktualni-zpravy">Aktuální zprávy</option>
+														<option value="rozhovory">Rozhovory</option>
+														<!-- další options -->
+													</select>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-6">
+												<div class="o-select header-section__label">
+													<div class="header-section__category">Měsíc</div>
+													<select name="month" class="js-select">
+														<option value="">Měsíc</option>
+														<option value="1">leden</option>
+														<option value="2">únor</option>
+														<!-- další options -->
+													</select>
+												</div>
+											</div>
 										</div>
-										<div class="col-md-3 col-sm-6">
-											<label class="o-select header-section__label">
-												<div class="header-section__category">Kategorie</div>
-												<select class="js-select">
-													<option>Kategorie</option>
-													<option>Aktuální zprávy</option>
-													<option>Rozhovory</option>
-													<option>Reportáže</option>
-													<option>Mládež</option>
-													<option>Tiskové zprávy</option>
-													<option>Soutěže a akce pro fanoušky</option>
-													<option>Preview k zápasu</option>
-													<option>Ohlasy po utkání</option>
-													<option>Sledge – článek</option>
-													<option>Sledge – reportáž</option>
-													<option>Historie</option>
-													<option>Fan Club</option>
-												</select>
-											</label>
-										</div>
-										<div class="col-md-3 col-sm-6">
-											<label class="o-select header-section__label">
-												<div class="header-section__category">Měsíc</div>
-												<select class="js-select">
-													<option>Měsíc</option>
-													<option>leden</option>
-													<option>únor</option>
-													<option>březen</option>
-													<option>duben</option>
-													<option>květen</option>
-													<option>červen</option>
-													<option>červenec</option>
-													<option>srpen</option>
-													<option>září</option>
-													<option>říjen</option>
-													<option>listopad</option>
-													<option>prosinec</option>
-												</select>
-											</label>
-										</div>
-									</div>
+									</form>
 								</div>
 								<div class="row gy-4 mb-lg-5 mb-2">
 									<div class="col-12">
@@ -495,25 +477,37 @@
 					<nav class="navbar">
 						<ul class="navbar__menu">
 							<li class="navbar__menu-list">
-								<a href="#" class="navbar__menu-item"> Klub </a>
+								<a class="navbar__menu-item" href="/article">Články</a>
 							</li>
 							<li class="navbar__menu-list">
-								<a href="#" class="navbar__menu-item"> A-tým </a>
+								<a class="navbar__menu-item" href="/vysledky">Výsledky</a>
 							</li>
 							<li class="navbar__menu-list">
-								<a href="#" class="navbar__menu-item"> zápasy </a>
+								<a class="navbar__menu-item" href="/tabulky">Tabulky</a>
 							</li>
 							<li class="navbar__menu-list">
-								<a href="#" class="navbar__menu-item"> mládež </a>
+								<a class="navbar__menu-item" href="/article/?category=1">Rozhovory</a>
 							</li>
 							<li class="navbar__menu-list">
-								<a href="#" class="navbar__menu-item"> fanshop </a>
+								<a class="navbar__menu-item" href="/fotogalerie">Fotogalerie</a>
 							</li>
 							<li class="navbar__menu-list">
-								<a href="#" class="navbar__menu-item"> partneři </a>
+								<a class="navbar__menu-item" href="/mistri-kraje">Mistři kraje</a>
 							</li>
 							<li class="navbar__menu-list">
-								<a href="#" class="navbar__menu-item"> rozpis tréninků </a>
+								<a class="navbar__menu-item" href="/article/?category=2">Historie</a>
+							</li>
+							<li class="navbar__menu-list">
+								<a class="navbar__menu-item" href="https://www.youtube.com/@jihoceskyfotbaltv3873" target="_blank">JF TV</a>
+							</li>
+							<li class="navbar__menu-list">
+								<a class="navbar__menu-item" href="/zimni-priprava-2024">Zimní příprava 2024</a>
+							</li>
+							<li class="navbar__menu-list">
+								<a class="navbar__menu-item" href="/article/?category=3">Letní kemp</a>
+							</li>
+							<li class="navbar__menu-list">
+								<a class="navbar__menu-item" href="/nase-projekty">Naše projekty</a>
 							</li>
 						</ul>
 					</nav>

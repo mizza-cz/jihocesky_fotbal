@@ -49,11 +49,9 @@
     &__menu {
       padding-left: 0;
       display: flex;
-      @include media-breakpoint-down(xl) {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
       &-list {
         color: var(--color-primary);
         text-transform: uppercase;
@@ -78,7 +76,7 @@
   &__inner {
     padding-top: 32px;
     padding-bottom: 32px;
-    max-width: 1060px;
+    max-width: 73rem;
     margin: 0 auto;
     position: relative;
     @include media-breakpoint-down(xl) {
