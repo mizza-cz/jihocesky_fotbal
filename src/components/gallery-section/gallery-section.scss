@@ -1,0 +1,22 @@
+.gallery-section {
+  margin-top: 20px;
+  margin-bottom: 32px;
+  &__inner {
+    padding: 2rem 1.25rem;
+    background-color: var(--color-light);
+
+    .boardGallery__item {
+      max-width: 100%;
+    }
+    .boardGallery__title {
+      @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+      }
+    }
+    .boardGallery__box {
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}

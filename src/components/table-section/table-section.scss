@@ -1,0 +1,43 @@
+.table-section {
+  margin-top: 20px;
+  margin-bottom: 32px;
+  &__inner {
+    padding: 2rem 1.25rem;
+    background-color: var(--color-light);
+    .o-content h2 {
+      margin-bottom: 16px;
+    }
+    .o-content p {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .table {
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      min-width: max-content;
+    }
+    th {
+      background-color: var(--color-primary);
+      color: var(--color-light);
+    }
+    td {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-weight: 400;
+    }
+    th,
+    td {
+      text-align: center;
+    }
+    .team {
+      text-align: left;
+      font-weight: 600;
+      img {
+        margin-right: 8px;
+      }
+    }
+  }
+  .hp-table {
+    margin-bottom: 16px;
+  }
+}
