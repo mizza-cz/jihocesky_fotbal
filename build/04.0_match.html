@@ -28,180 +28,41 @@
 
 <body>
 	<div class="base">
-		<header class="header w-100 pt-10">
-			<nav class="navbar navbar-expand-lg w-100">
-				<div class="header__top">
-					<div class="container">
-						<div class="d-flex justify-content-between align-items-center">
-							<div class="header__title">
-								<img src="images/content/logo-name.png" loading="lazy" alt="logo" />
-							</div>
-							<ul class="social">
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg width="9" height="18" viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
-											<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#69be0a" fill-rule="nonzero" />
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link social__link--instagram" href="#">
-										<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-											<g fill="none" fill-rule="evenodd">
-												<path d="M0 0h16v16H0z" />
-												<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#69be0a" />
-											</g>
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg fill="#69be0a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
-											<path d="M448 209.91a210.06 210.06 0 01-122.77-39.25v178.72A162.55 162.55 0 11185 188.31v89.89a74.62 74.62 0 1052.23 71.18V0h88a121.18 121.18 0 001.86 22.17A122.18 122.18 0 00381 102.39a121.43 121.43 0 0067 20.14z" />
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
-											<g fill="#69be0a" fill-rule="nonzero">
-												<path d="M15.369 8.226H4.163a3.226 3.226 0 00-3.226 3.226v2.593a3.226 3.226 0 003.226 3.226h11.206a3.226 3.226 0 003.225-3.226v-2.593a3.227 3.227 0 00-3.225-3.226zm-8.852 2.018H5.475v5.177H4.47v-5.177H3.427v-.88h3.09v.88zm2.943 5.177h-.893v-.49a1.91 1.91 0 01-.515.413 1.076 1.076 0 01-.52.142c-.207 0-.36-.065-.466-.2-.104-.133-.157-.33-.157-.598v-3.736h.893v3.428c0 .106.02.182.056.23.038.048.1.07.183.07a.508.508 0 00.249-.094c.101-.063.193-.142.277-.24v-3.394h.893v4.469zm3.241-.923c0 .316-.07.559-.21.728-.14.169-.343.252-.607.252-.176 0-.332-.031-.467-.097a1.148 1.148 0 01-.382-.303v.343h-.904V9.364h.904v1.95c.12-.135.248-.24.382-.31a.877.877 0 01.412-.106c.283 0 .498.095.647.285.15.19.225.47.225.835v2.48zm3.097-1.204H14.09v.842c0 .235.029.398.087.49.06.09.16.135.303.135.148 0 .251-.038.31-.115.058-.078.09-.247.09-.51v-.203h.918v.229c0 .458-.11.803-.337 1.036-.222.23-.556.345-1.001.345-.401 0-.717-.122-.946-.367-.229-.244-.345-.583-.345-1.014v-2.007c0-.386.127-.704.38-.948s.578-.365.978-.365c.409 0 .723.112.942.339.22.226.33.55.33.974v1.14z" />
-												<path d="M14.489 11.623c-.143 0-.244.04-.306.123-.064.079-.093.213-.093.4v.453h.79v-.452c0-.188-.032-.322-.095-.4-.06-.084-.16-.124-.296-.124zM11.408 11.608a.44.44 0 00-.189.043.64.64 0 00-.184.137v2.784a.763.763 0 00.212.159c.068.03.14.048.216.048.11 0 .19-.032.24-.096.052-.063.077-.165.077-.307v-2.308c0-.152-.03-.266-.093-.344a.346.346 0 00-.279-.116zM5.63 6.674h1.132V3.905L8.08 0H6.93l-.701 2.668h-.072L5.422 0h-1.14L5.63 4.03zM9.613 6.798c.457 0 .816-.12 1.077-.36.26-.24.39-.57.39-.99V2.904c0-.374-.133-.683-.398-.92-.266-.238-.607-.358-1.023-.358-.458 0-.822.114-1.092.34-.27.225-.406.528-.406.91v2.552c0 .419.132.75.396.998s.617.372 1.056.372zm-.417-3.959c0-.107.039-.193.114-.261a.446.446 0 01.3-.098c.133 0 .24.032.323.098a.323.323 0 01.122.261v2.682c0 .132-.04.236-.12.311a.453.453 0 01-.325.113c-.132 0-.235-.036-.307-.112a.432.432 0 01-.107-.312V2.839zM12.598 6.746c.189 0 .383-.054.583-.158.202-.105.395-.259.58-.46v.546h1.005V1.751H13.76v3.737a1.392 1.392 0 01-.31.264.583.583 0 01-.28.104c-.095 0-.164-.026-.205-.08-.041-.05-.065-.135-.065-.25V1.75h-1.004v4.114c0 .294.06.513.176.659.119.147.292.222.526.222z" />
-											</g>
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg width="19" height="15" viewBox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
-											<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#69be0a" fill-rule="nonzero" />
-										</svg> </a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="header__bottom">
-					<div class="container">
-						<div class="header__bottom-inner">
-							<div class="collapse navbar-collapse" id="navbarNavDropdown">
-								<ul class="navbar-nav">
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="klub" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Vstupenky
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="klub">
-											<li><a class="dropdown-item" href="#">Profil klubu</a></li>
-											<li><a class="dropdown-item" href="#">Vedení klubu</a></li>
-											<li><a class="dropdown-item" href="#">Kontakty</a></li>
-											<li><a class="dropdown-item" href="#">Stadion</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Další sportoviště</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Historie</a></li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="a-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Klub
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="a-tym">
-											<li><a class="dropdown-item" href="#">Soupiska</a></li>
-											<li><a class="dropdown-item" href="#">Realizační tým</a></li>
-											<li><a class="dropdown-item" href="#">Zápasy</a></li>
-											<li><a class="dropdown-item" href="#">Tabulka</a></li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="b-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											A-tým
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="b-tym">
-											<li><a class="dropdown-item" href="#">Soupiska</a></li>
-											<li><a class="dropdown-item" href="#">Realizační tým</a></li>
-											<li><a class="dropdown-item" href="#">Zápasy</a></li>
-											<li><a class="dropdown-item" href="#">Tabulka</a></li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="mladez" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											B-tým
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="mladez">
-											<li>
-												<a class="dropdown-item" href="#">Základní informace</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Kontakty</a></li>
-											<li><a class="dropdown-item" href="#">Výchova mládeže</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Sportovní centrum</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Sportovní třídy</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Fotbalová školička</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Nábor</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Spolupráce s SDG</a>
-											</li>
-											<li><a class="dropdown-item" href="#">ZŠ Rabasova</a></li>
-											<li><a class="dropdown-item" href="#">Another action</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Something else here</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="fanzona" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Mládež
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="fanzona">
-											<li>
-												<a class="dropdown-item" href="#">Zpravodaje online</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Hráč utkání</a></li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#"> Fanoušci </a>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="vstupenky" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Partneři
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="vstupenky">
-											<li><a class="dropdown-item" href="#">Permanentky</a></li>
-											<li><a class="dropdown-item" href="#">Vstupenky</a></li>
-											<li><a class="dropdown-item" href="#">On-line prodej</a></li>
-											<li><a class="dropdown-item" href="#">VIP sedadlo</a></li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#"> Fanshop </a>
-									</li>
-								</ul>
+		<div class="base__wrapper">
+			<header class="header w-100 pt-10">
+				<nav class="navbar navbar-expand-lg w-100">
+					<div class="header__top">
+						<div class="container">
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="header__title">
+									<img src="images/content/logo-name.png" loading="lazy" alt="logo" />
+								</div>
 								<ul class="social">
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
 											<svg width="9" height="18" viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
-												<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#fff" fill-rule="nonzero" />
+												<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#69be0a" fill-rule="nonzero" />
 											</svg> </a>
 									</li>
 									<li class="social__item">
-										<a target="_blank" class="social__link" href="#">
+										<a target="_blank" class="social__link social__link--instagram" href="#">
 											<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 												<g fill="none" fill-rule="evenodd">
 													<path d="M0 0h16v16H0z" />
-													<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#fff" />
+													<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#69be0a" />
 												</g>
 											</svg> </a>
 									</li>
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
-											<svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+											<svg fill="#69be0a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
 												<path d="M448 209.91a210.06 210.06 0 01-122.77-39.25v178.72A162.55 162.55 0 11185 188.31v89.89a74.62 74.62 0 1052.23 71.18V0h88a121.18 121.18 0 001.86 22.17A122.18 122.18 0 00381 102.39a121.43 121.43 0 0067 20.14z" />
 											</svg> </a>
 									</li>
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
 											<svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
-												<g fill="#fff" fill-rule="nonzero">
+												<g fill="#69be0a" fill-rule="nonzero">
 													<path d="M15.369 8.226H4.163a3.226 3.226 0 00-3.226 3.226v2.593a3.226 3.226 0 003.226 3.226h11.206a3.226 3.226 0 003.225-3.226v-2.593a3.227 3.227 0 00-3.225-3.226zm-8.852 2.018H5.475v5.177H4.47v-5.177H3.427v-.88h3.09v.88zm2.943 5.177h-.893v-.49a1.91 1.91 0 01-.515.413 1.076 1.076 0 01-.52.142c-.207 0-.36-.065-.466-.2-.104-.133-.157-.33-.157-.598v-3.736h.893v3.428c0 .106.02.182.056.23.038.048.1.07.183.07a.508.508 0 00.249-.094c.101-.063.193-.142.277-.24v-3.394h.893v4.469zm3.241-.923c0 .316-.07.559-.21.728-.14.169-.343.252-.607.252-.176 0-.332-.031-.467-.097a1.148 1.148 0 01-.382-.303v.343h-.904V9.364h.904v1.95c.12-.135.248-.24.382-.31a.877.877 0 01.412-.106c.283 0 .498.095.647.285.15.19.225.47.225.835v2.48zm3.097-1.204H14.09v.842c0 .235.029.398.087.49.06.09.16.135.303.135.148 0 .251-.038.31-.115.058-.078.09-.247.09-.51v-.203h.918v.229c0 .458-.11.803-.337 1.036-.222.23-.556.345-1.001.345-.401 0-.717-.122-.946-.367-.229-.244-.345-.583-.345-1.014v-2.007c0-.386.127-.704.38-.948s.578-.365.978-.365c.409 0 .723.112.942.339.22.226.33.55.33.974v1.14z" />
 													<path d="M14.489 11.623c-.143 0-.244.04-.306.123-.064.079-.093.213-.093.4v.453h.79v-.452c0-.188-.032-.322-.095-.4-.06-.084-.16-.124-.296-.124zM11.408 11.608a.44.44 0 00-.189.043.64.64 0 00-.184.137v2.784a.763.763 0 00.212.159c.068.03.14.048.216.048.11 0 .19-.032.24-.096.052-.063.077-.165.077-.307v-2.308c0-.152-.03-.266-.093-.344a.346.346 0 00-.279-.116zM5.63 6.674h1.132V3.905L8.08 0H6.93l-.701 2.668h-.072L5.422 0h-1.14L5.63 4.03zM9.613 6.798c.457 0 .816-.12 1.077-.36.26-.24.39-.57.39-.99V2.904c0-.374-.133-.683-.398-.92-.266-.238-.607-.358-1.023-.358-.458 0-.822.114-1.092.34-.27.225-.406.528-.406.91v2.552c0 .419.132.75.396.998s.617.372 1.056.372zm-.417-3.959c0-.107.039-.193.114-.261a.446.446 0 01.3-.098c.133 0 .24.032.323.098a.323.323 0 01.122.261v2.682c0 .132-.04.236-.12.311a.453.453 0 01-.325.113c-.132 0-.235-.036-.307-.112a.432.432 0 01-.107-.312V2.839zM12.598 6.746c.189 0 .383-.054.583-.158.202-.105.395-.259.58-.46v.546h1.005V1.751H13.76v3.737a1.392 1.392 0 01-.31.264.583.583 0 01-.28.104c-.095 0-.164-.026-.205-.08-.041-.05-.065-.135-.065-.25V1.75h-1.004v4.114c0 .294.06.513.176.659.119.147.292.222.526.222z" />
 												</g>
@@ -210,276 +71,417 @@
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
 											<svg width="19" height="15" viewBox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
-												<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#fff" fill-rule="nonzero" />
+												<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#69be0a" fill-rule="nonzero" />
 											</svg> </a>
 									</li>
 								</ul>
-								<a href="#" class="header__search">
-									<img src="images/ico/search.svg" alt="" />
-								</a>
 							</div>
-							<button class="c-header__opener js-header__opener" type="button">
-								<span></span>
-							</button>
 						</div>
 					</div>
-				</div>
-			</nav>
-		</header>
-		<main class="main" aria-label="Hlavní obsah">
-			<section class="match-section">
-				<div class="container">
-					<div class="row gy-4">
-						<div class="col-12">
-							<div class="topstory__item">
-								<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
-								<div class="topstory__box">
-									<div class="topstory__content">
-										<ul class="topstory__tags">
-											<li>
-												<div class="tag">2. 9. 2021</div>
-											</li>
-											<li>
-												<div class="tag tag--primary">Olomouc vs. Hradec Králové</div>
-											</li>
-										</ul>
-										<h1 class="topstory__title">
-											René Piegl po návratu domů: Jsem strašně rád za zápas strašně
-											rád za zápas
-										</h1>
-									</div>
-								</div>
-							</div>
-							<div class="row row-margin match-section__box">
-								<div class="col-md-3 d-md-block d-none">
-									<i class="fa fa-futbol-o"></i> 55. Daněk</br><i class="fa fa-futbol-o"></i> 72. Kalvach (vla.)</br>
-								</div>
-								<div class="col-md-6">
-									<p class="match-section__head hidden-mobile">
-										<strong>
-											23. kolo
-										</strong>
-										/ Sobota 2. 3. 2024, 18:00 / CFIG Arena
-									</p>
-									<p class="match-section__head hidden-desktop">
-										<strong>
-											23. kolo
-										</strong>/ Sobota 2. 3. 2024, 18:00 <br> CFIG Arena
-									</p>
-									<div class="match-section__score mt-4">
-										<div class="col-sm-4 match-section__team">
-											<img src="https://fcviktoria.cz/znaky/2014/big/PAR.png">
-											<p class="font-bold-18">
-												<span class="hidden-mobile">FK Pardubice</span>
-											</p>
-										</div>
-										<div class="col-sm-4 match-section__result">
-											<p class="font-bold-60">2:3</p>
-											<p class="font-bold-18">(0:1)</p>
-										</div>
-										<div class="col-sm-4 match-section__team">
-											<img src="https://fcviktoria.cz/znaky/2014/big/PLZ.png">
-											<p class="font-bold-18">
-												<span class="hidden-mobile">FC Viktoria Plzeň</span>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3 d-md-block d-none">
-									42. Kalvach <i class="fa fa-futbol-o"></i></br>47. Šulc <i class="fa fa-futbol-o"></i></br>49. Šulc <i class="fa fa-futbol-o"></i></br>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-8 col-md-10 mx-auto">
-							<div class="article-section__inner mb-4 match-section__statistics">
-								<div class="o-content">
-									<h2>
-										SESTAVY
-									</h2>
-
-									<h3>FK PARDUBICE</h3>
-									<p>
-										Budinský – Icha, Halinský, Ortíz, Chlumecký – Solil, Vacek (C) (63. Darmovzal), Kissiedou (78. Mareš) – Daněk – Krobot (17. Surzyn, 78. Tischler), Zlatohlávek (63. Černý).
-									</p>
-
-									<h3>
-										FC VIKTORIA PLZEŇ
-									</h3>
-									<p>
-										Jedlička – Hranáč, Dweh, Jemelka – Mosquera (62. Sýkora), Kalvach (C), Kopic, Červ (62. Valenta), Souaré – Šulc (90+2. Traoré), Chorý (62. Vydra).
-									</p>
-
-									<h2>
-										STATISTIKY
-									</h2>
-									<p>
-										<strong>Branky:</strong> 55. Daněk, 72. Kalvach (vla.) – 42. Kalvach, 47. Šulc, 49. Šulc
-									</p>
-									<p>
-										<strong> ŽK:</strong> 45+3. Chorý, 50. Jemelka, 82. Sýkora
-									</p>
-									<p>
-										<strong>ČK:</strong> 6. Halinský
-									</p>
-									<p>
-										<strong>Rozhodčí:</strong> Machálek – Caletka, Dohnálek
-									</p>
-									<p>
-										<strong>Střely na bránu:</strong> 2 - 9
-									</p>
-									<p>
-										<strong>Střely mimo:</strong> 2 - 8
-									</p>
-									<p>
-										<strong>Rohy:</strong> 2 - 13
-									</p>
-									<p>
-										<strong>Ofsajdy:</strong> 1 - 2
-									</p>
-									<p>
-										<strong>Fauly:</strong> 10 - 13
-									</p>
-									<p>
-										<strong> Diváci:</strong> 3849
-									</p>
-
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-8 col-md-10 mx-auto mb-4">
-							<div class="article-section__inner mb-4">
-								<div class="o-content">
-									<div class="perex">
-										Viktoria v rámci 23. kola FORTUNA:LIGY poprvé vyrazila na hřiště v Pardubicích.
-									</div>
-									<p>
-										Hned v první minutě byl do hry zapojen videorozhodčí. Denis Halinský totiž nepěkně zajel do Pavla Šulce, hlavní rozhodčí celou situaci zkoumal právě pomocí VARu a nakonec vytáhl kartu červené barvy. Pardubice tak od úvodní minuty dohrávaly v deseti hráčích. Obrovskou šanci si vytvořili v patnácté minutě hráči Viktorie. Odražený míč si na rohu malého vápna našel Jan Kopic, který z první vyslal tvrdou ránu, kterou však trefil jen domácího brankáře.
-									</p>
-									<p>
-										Viktoriáni si nadále snažili vytvářet tlak a drželi míč na svých kopačkách, žádná větší šance však nepřicházela. To se změnilo čtyři minuty před koncem. Přízemní střela Lukáše Kalvacha zaskočila domácího brankáře Budínského, který míč nezachytil a mezi jeho nohami prošel až za brankovou čáru. Do kabin šla Viktoria s jednobrankovým náskokem.
-									</p>
-									<p>
-										Úvod prvního poločasu přinesl velkou gólovou podívanou. Ve 47. minutě se opřel do nůžek Lukáš Červ, jeho střelu těsně před brankářem tečoval Pavel Šulc a míč propadl do brány. O dvě minuty později poslal do šestnáctky Jhon Mosquera centr, na který naskočil nikým nehlídaný Pavel Šulc a dnes se už podruhé prosadil.
-									</p>
-									<p>
-										Za pět minut se prosadili také domácí. Ránou zpoza pokutového území propálil Kryštof Daněk bezmocného Martina Jedličku. V sedmdesáté první minutě už to bylo jen o gól. Po rohovém kopu se znovu prosadil Kryštof Daněk.
-									</p>
-									<p>
-										Deset minut před koncem se Plzeňští dostali do obrovské šance. Nejdříve pálil do brankové konstrukce Sampson Dweh a následně Pavel Šulc, který se snažil dorážet, trefil pouze břevno. Žádný další gól v zápase už nepadl a Viktoria odváží z Pardubic vítězství 3:2.
-									</p>
-								</div>
-								<div class="article-section__bottom">
-									<ul class="articleAuthor__links">
-										<li>
-											<div class="social-share twitter">
-												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0_7552_478)">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M13.288 19.167l-4.625-6.592-5.789 6.592H.424l7.153-8.141L.425.833h6.288l4.359 6.213 5.46-6.213h2.45l-6.82 7.764 7.414 10.57h-6.288zm2.727-1.859h-1.649L3.933 2.692H5.58l4.18 5.852.722 1.016 5.532 7.748z" fill="#69be0a" />
-													</g>
-													<defs>
-														<clipPath id="clip0_7552_478">
-															<path fill="#fff" d="M0 0h20v20H0z" />
-														</clipPath>
-													</defs>
-												</svg>
-											</div>
+					<div class="header__bottom">
+						<div class="container">
+							<div class="header__bottom-inner">
+								<div class="collapse navbar-collapse" id="navbarNavDropdown">
+									<ul class="navbar-nav">
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="klub" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Vstupenky
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="klub">
+												<li><a class="dropdown-item" href="#">Profil klubu</a></li>
+												<li><a class="dropdown-item" href="#">Vedení klubu</a></li>
+												<li><a class="dropdown-item" href="#">Kontakty</a></li>
+												<li><a class="dropdown-item" href="#">Stadion</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Další sportoviště</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Historie</a></li>
+											</ul>
 										</li>
-										<li>
-											<div class="social-share facebook">
-												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0_7552_772)">
-														<path d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.093 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.563V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" fill="#69be0a" />
-														<path d="M13.893 12.89l.443-2.89h-2.774V8.125c0-.79.388-1.563 1.63-1.563h1.261v-2.46s-1.144-.196-2.238-.196c-2.285 0-3.777 1.385-3.777 3.89V10h-2.54v2.89h2.54v6.988c1.035.163 2.09.163 3.124 0v-6.987h2.33z" fill="#fff" />
-													</g>
-													<defs>
-														<clipPath id="clip0_7552_772">
-															<path fill="#fff" d="M0 0h20v20H0z" />
-														</clipPath>
-													</defs>
-												</svg>
-											</div>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="a-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Klub
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="a-tym">
+												<li><a class="dropdown-item" href="#">Soupiska</a></li>
+												<li><a class="dropdown-item" href="#">Realizační tým</a></li>
+												<li><a class="dropdown-item" href="#">Zápasy</a></li>
+												<li><a class="dropdown-item" href="#">Tabulka</a></li>
+											</ul>
 										</li>
-										<li>
-											<div class="social-share linkedin">
-												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0_7552_1098)">
-														<path d="M18.524 0H1.476A1.476 1.476 0 000 1.476v17.048A1.476 1.476 0 001.476 20h17.048A1.476 1.476 0 0020 18.524V1.476A1.476 1.476 0 0018.524 0zM5.96 17.038H2.954V7.486h3.007v9.552zM4.456 6.162a1.726 1.726 0 111.736-1.724 1.702 1.702 0 01-1.736 1.724zm12.588 10.884H14.04v-5.218c0-1.54-.654-2.014-1.499-2.014-.891 0-1.766.672-1.766 2.053v5.179H7.767V7.493h2.891v1.324h.04c.29-.588 1.306-1.592 2.858-1.592 1.677 0 3.49.996 3.49 3.912l-.002 5.909z" fill="#69be0a" />
-													</g>
-													<defs>
-														<clipPath id="clip0_7552_1098">
-															<path fill="#fff" d="M0 0h20v20H0z" />
-														</clipPath>
-													</defs>
-												</svg>
-											</div>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="b-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												A-tým
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="b-tym">
+												<li><a class="dropdown-item" href="#">Soupiska</a></li>
+												<li><a class="dropdown-item" href="#">Realizační tým</a></li>
+												<li><a class="dropdown-item" href="#">Zápasy</a></li>
+												<li><a class="dropdown-item" href="#">Tabulka</a></li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="mladez" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												B-tým
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="mladez">
+												<li>
+													<a class="dropdown-item" href="#">Základní informace</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Kontakty</a></li>
+												<li><a class="dropdown-item" href="#">Výchova mládeže</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Sportovní centrum</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Sportovní třídy</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Fotbalová školička</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Nábor</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Spolupráce s SDG</a>
+												</li>
+												<li><a class="dropdown-item" href="#">ZŠ Rabasova</a></li>
+												<li><a class="dropdown-item" href="#">Another action</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Something else here</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="fanzona" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Mládež
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="fanzona">
+												<li>
+													<a class="dropdown-item" href="#">Zpravodaje online</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Hráč utkání</a></li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#"> Fanoušci </a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="vstupenky" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Partneři
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="vstupenky">
+												<li><a class="dropdown-item" href="#">Permanentky</a></li>
+												<li><a class="dropdown-item" href="#">Vstupenky</a></li>
+												<li><a class="dropdown-item" href="#">On-line prodej</a></li>
+												<li><a class="dropdown-item" href="#">VIP sedadlo</a></li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#"> Fanshop </a>
 										</li>
 									</ul>
-									<div id="copyLink" data-link="https://esportsmedia.cz/">
-										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<g clip-path="url(#clip0_7552_862)">
-												<path d="M4.167 12.5c-.777 0-1.165 0-1.472-.127a1.667 1.667 0 01-.902-.902c-.126-.306-.126-.694-.126-1.471V4.333c0-.933 0-1.4.181-1.756.16-.314.415-.569.729-.729.356-.181.823-.181 1.756-.181H10c.777 0 1.165 0 1.471.126.409.17.733.494.902.902.127.307.127.695.127 1.472m-2.333 14.166h5.5c.933 0 1.4 0 1.756-.181.314-.16.569-.415.729-.729.181-.356.181-.823.181-1.756v-5.5c0-.934 0-1.4-.181-1.757a1.667 1.667 0 00-.729-.728C17.067 7.5 16.6 7.5 15.667 7.5h-5.5c-.934 0-1.4 0-1.757.182-.314.16-.569.414-.728.728-.182.357-.182.823-.182 1.757v5.5c0 .933 0 1.4.182 1.756.16.314.414.569.728.729.357.181.823.181 1.757.181z" stroke="#fff" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-											</g>
-											<defs>
-												<clipPath id="clip0_7552_862">
-													<path fill="#fff" d="M0 0h20v20H0z" />
-												</clipPath>
-											</defs>
-										</svg> Click me to copy link
+									<ul class="social">
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="9" height="18" viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#fff" fill-rule="nonzero" />
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+													<g fill="none" fill-rule="evenodd">
+														<path d="M0 0h16v16H0z" />
+														<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#fff" />
+													</g>
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+													<path d="M448 209.91a210.06 210.06 0 01-122.77-39.25v178.72A162.55 162.55 0 11185 188.31v89.89a74.62 74.62 0 1052.23 71.18V0h88a121.18 121.18 0 001.86 22.17A122.18 122.18 0 00381 102.39a121.43 121.43 0 0067 20.14z" />
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
+													<g fill="#fff" fill-rule="nonzero">
+														<path d="M15.369 8.226H4.163a3.226 3.226 0 00-3.226 3.226v2.593a3.226 3.226 0 003.226 3.226h11.206a3.226 3.226 0 003.225-3.226v-2.593a3.227 3.227 0 00-3.225-3.226zm-8.852 2.018H5.475v5.177H4.47v-5.177H3.427v-.88h3.09v.88zm2.943 5.177h-.893v-.49a1.91 1.91 0 01-.515.413 1.076 1.076 0 01-.52.142c-.207 0-.36-.065-.466-.2-.104-.133-.157-.33-.157-.598v-3.736h.893v3.428c0 .106.02.182.056.23.038.048.1.07.183.07a.508.508 0 00.249-.094c.101-.063.193-.142.277-.24v-3.394h.893v4.469zm3.241-.923c0 .316-.07.559-.21.728-.14.169-.343.252-.607.252-.176 0-.332-.031-.467-.097a1.148 1.148 0 01-.382-.303v.343h-.904V9.364h.904v1.95c.12-.135.248-.24.382-.31a.877.877 0 01.412-.106c.283 0 .498.095.647.285.15.19.225.47.225.835v2.48zm3.097-1.204H14.09v.842c0 .235.029.398.087.49.06.09.16.135.303.135.148 0 .251-.038.31-.115.058-.078.09-.247.09-.51v-.203h.918v.229c0 .458-.11.803-.337 1.036-.222.23-.556.345-1.001.345-.401 0-.717-.122-.946-.367-.229-.244-.345-.583-.345-1.014v-2.007c0-.386.127-.704.38-.948s.578-.365.978-.365c.409 0 .723.112.942.339.22.226.33.55.33.974v1.14z" />
+														<path d="M14.489 11.623c-.143 0-.244.04-.306.123-.064.079-.093.213-.093.4v.453h.79v-.452c0-.188-.032-.322-.095-.4-.06-.084-.16-.124-.296-.124zM11.408 11.608a.44.44 0 00-.189.043.64.64 0 00-.184.137v2.784a.763.763 0 00.212.159c.068.03.14.048.216.048.11 0 .19-.032.24-.096.052-.063.077-.165.077-.307v-2.308c0-.152-.03-.266-.093-.344a.346.346 0 00-.279-.116zM5.63 6.674h1.132V3.905L8.08 0H6.93l-.701 2.668h-.072L5.422 0h-1.14L5.63 4.03zM9.613 6.798c.457 0 .816-.12 1.077-.36.26-.24.39-.57.39-.99V2.904c0-.374-.133-.683-.398-.92-.266-.238-.607-.358-1.023-.358-.458 0-.822.114-1.092.34-.27.225-.406.528-.406.91v2.552c0 .419.132.75.396.998s.617.372 1.056.372zm-.417-3.959c0-.107.039-.193.114-.261a.446.446 0 01.3-.098c.133 0 .24.032.323.098a.323.323 0 01.122.261v2.682c0 .132-.04.236-.12.311a.453.453 0 01-.325.113c-.132 0-.235-.036-.307-.112a.432.432 0 01-.107-.312V2.839zM12.598 6.746c.189 0 .383-.054.583-.158.202-.105.395-.259.58-.46v.546h1.005V1.751H13.76v3.737a1.392 1.392 0 01-.31.264.583.583 0 01-.28.104c-.095 0-.164-.026-.205-.08-.041-.05-.065-.135-.065-.25V1.75h-1.004v4.114c0 .294.06.513.176.659.119.147.292.222.526.222z" />
+													</g>
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="19" height="15" viewBox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
+													<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#fff" fill-rule="nonzero" />
+												</svg> </a>
+										</li>
+									</ul>
+									<a href="#" class="header__search">
+										<img src="images/ico/search.svg" alt="" />
+									</a>
+								</div>
+								<button class="c-header__opener js-header__opener" type="button">
+									<span></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<main class="main" aria-label="Hlavní obsah">
+				<section class="match-section">
+					<div class="container">
+						<div class="row gy-4">
+							<div class="col-12">
+								<div class="topstory__item">
+									<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
+									<div class="topstory__box">
+										<div class="topstory__content">
+											<ul class="topstory__tags">
+												<li>
+													<div class="tag">2. 9. 2021</div>
+												</li>
+												<li>
+													<div class="tag tag--primary">Olomouc vs. Hradec Králové</div>
+												</li>
+											</ul>
+											<h1 class="topstory__title">
+												René Piegl po návratu domů: Jsem strašně rád za zápas strašně
+												rád za zápas
+											</h1>
+										</div>
 									</div>
 								</div>
-								<script>
-									document.addEventListener("DOMContentLoaded", function() {
-										var copyLinkButton = document.getElementById("copyLink");
-										if (copyLinkButton) {
-											copyLinkButton.addEventListener("click", function() {
-												var linkToCopy = this.getAttribute("data-link");
-												var textarea = document.createElement("textarea");
-												textarea.value = linkToCopy;
-												document.body.appendChild(textarea);
-												textarea.select();
-												textarea.setSelectionRange(0, 99999);
-												document.execCommand("copy");
-												document.body.removeChild(textarea);
-											});
-										} else {
-											console.error("Element with id 'copyLink' not found.");
-										}
-									});
-								</script>
+								<div class="row row-margin match-section__box">
+									<div class="col-md-3 d-md-block d-none">
+										<i class="fa fa-futbol-o"></i> 55. Daněk</br><i class="fa fa-futbol-o"></i> 72. Kalvach (vla.)</br>
+									</div>
+									<div class="col-md-6">
+										<p class="match-section__head hidden-mobile">
+											<strong>
+												23. kolo
+											</strong>
+											/ Sobota 2. 3. 2024, 18:00 / CFIG Arena
+										</p>
+										<p class="match-section__head hidden-desktop">
+											<strong>
+												23. kolo
+											</strong>/ Sobota 2. 3. 2024, 18:00 <br> CFIG Arena
+										</p>
+										<div class="match-section__score mt-4">
+											<div class="col-sm-4 match-section__team">
+												<img src="https://fcviktoria.cz/znaky/2014/big/PAR.png">
+												<p class="font-bold-18">
+													<span class="hidden-mobile">FK Pardubice</span>
+												</p>
+											</div>
+											<div class="col-sm-4 match-section__result">
+												<p class="font-bold-60">2:3</p>
+												<p class="font-bold-18">(0:1)</p>
+											</div>
+											<div class="col-sm-4 match-section__team">
+												<img src="https://fcviktoria.cz/znaky/2014/big/PLZ.png">
+												<p class="font-bold-18">
+													<span class="hidden-mobile">FC Viktoria Plzeň</span>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3 d-md-block d-none">
+										42. Kalvach <i class="fa fa-futbol-o"></i></br>47. Šulc <i class="fa fa-futbol-o"></i></br>49. Šulc <i class="fa fa-futbol-o"></i></br>
+									</div>
+								</div>
 							</div>
-							<div class="article-section__inner">
-								<h5 class="h3 mb-3">
-									Fotogalerie
-								</h5>
-								<div class="article-section__gallery row g-2">
-									<div class="col-lg-3 col-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
-										</a>
+							<div class="col-xl-8 col-md-10 mx-auto">
+								<div class="article-section__inner mb-4 match-section__statistics">
+									<div class="o-content">
+										<h2>
+											SESTAVY
+										</h2>
+
+										<h3>FK PARDUBICE</h3>
+										<p>
+											Budinský – Icha, Halinský, Ortíz, Chlumecký – Solil, Vacek (C) (63. Darmovzal), Kissiedou (78. Mareš) – Daněk – Krobot (17. Surzyn, 78. Tischler), Zlatohlávek (63. Černý).
+										</p>
+
+										<h3>
+											FC VIKTORIA PLZEŇ
+										</h3>
+										<p>
+											Jedlička – Hranáč, Dweh, Jemelka – Mosquera (62. Sýkora), Kalvach (C), Kopic, Červ (62. Valenta), Souaré – Šulc (90+2. Traoré), Chorý (62. Vydra).
+										</p>
+
+										<h2>
+											STATISTIKY
+										</h2>
+										<p>
+											<strong>Branky:</strong> 55. Daněk, 72. Kalvach (vla.) – 42. Kalvach, 47. Šulc, 49. Šulc
+										</p>
+										<p>
+											<strong> ŽK:</strong> 45+3. Chorý, 50. Jemelka, 82. Sýkora
+										</p>
+										<p>
+											<strong>ČK:</strong> 6. Halinský
+										</p>
+										<p>
+											<strong>Rozhodčí:</strong> Machálek – Caletka, Dohnálek
+										</p>
+										<p>
+											<strong>Střely na bránu:</strong> 2 - 9
+										</p>
+										<p>
+											<strong>Střely mimo:</strong> 2 - 8
+										</p>
+										<p>
+											<strong>Rohy:</strong> 2 - 13
+										</p>
+										<p>
+											<strong>Ofsajdy:</strong> 1 - 2
+										</p>
+										<p>
+											<strong>Fauly:</strong> 10 - 13
+										</p>
+										<p>
+											<strong> Diváci:</strong> 3849
+										</p>
+
 									</div>
-									<div class="col-lg-3 col-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
-										</a>
+								</div>
+							</div>
+							<div class="col-xl-8 col-md-10 mx-auto mb-4">
+								<div class="article-section__inner mb-4">
+									<div class="o-content">
+										<div class="perex">
+											Viktoria v rámci 23. kola FORTUNA:LIGY poprvé vyrazila na hřiště v Pardubicích.
+										</div>
+										<p>
+											Hned v první minutě byl do hry zapojen videorozhodčí. Denis Halinský totiž nepěkně zajel do Pavla Šulce, hlavní rozhodčí celou situaci zkoumal právě pomocí VARu a nakonec vytáhl kartu červené barvy. Pardubice tak od úvodní minuty dohrávaly v deseti hráčích. Obrovskou šanci si vytvořili v patnácté minutě hráči Viktorie. Odražený míč si na rohu malého vápna našel Jan Kopic, který z první vyslal tvrdou ránu, kterou však trefil jen domácího brankáře.
+										</p>
+										<p>
+											Viktoriáni si nadále snažili vytvářet tlak a drželi míč na svých kopačkách, žádná větší šance však nepřicházela. To se změnilo čtyři minuty před koncem. Přízemní střela Lukáše Kalvacha zaskočila domácího brankáře Budínského, který míč nezachytil a mezi jeho nohami prošel až za brankovou čáru. Do kabin šla Viktoria s jednobrankovým náskokem.
+										</p>
+										<p>
+											Úvod prvního poločasu přinesl velkou gólovou podívanou. Ve 47. minutě se opřel do nůžek Lukáš Červ, jeho střelu těsně před brankářem tečoval Pavel Šulc a míč propadl do brány. O dvě minuty později poslal do šestnáctky Jhon Mosquera centr, na který naskočil nikým nehlídaný Pavel Šulc a dnes se už podruhé prosadil.
+										</p>
+										<p>
+											Za pět minut se prosadili také domácí. Ránou zpoza pokutového území propálil Kryštof Daněk bezmocného Martina Jedličku. V sedmdesáté první minutě už to bylo jen o gól. Po rohovém kopu se znovu prosadil Kryštof Daněk.
+										</p>
+										<p>
+											Deset minut před koncem se Plzeňští dostali do obrovské šance. Nejdříve pálil do brankové konstrukce Sampson Dweh a následně Pavel Šulc, který se snažil dorážet, trefil pouze břevno. Žádný další gól v zápase už nepadl a Viktoria odváží z Pardubic vítězství 3:2.
+										</p>
 									</div>
-									<div class="col-lg-3 col-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
-										</a>
+									<div class="article-section__bottom">
+										<ul class="articleAuthor__links">
+											<li>
+												<div class="social-share twitter">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_7552_478)">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M13.288 19.167l-4.625-6.592-5.789 6.592H.424l7.153-8.141L.425.833h6.288l4.359 6.213 5.46-6.213h2.45l-6.82 7.764 7.414 10.57h-6.288zm2.727-1.859h-1.649L3.933 2.692H5.58l4.18 5.852.722 1.016 5.532 7.748z" fill="#69be0a" />
+														</g>
+														<defs>
+															<clipPath id="clip0_7552_478">
+																<path fill="#fff" d="M0 0h20v20H0z" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+											</li>
+											<li>
+												<div class="social-share facebook">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_7552_772)">
+															<path d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.093 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.563V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" fill="#69be0a" />
+															<path d="M13.893 12.89l.443-2.89h-2.774V8.125c0-.79.388-1.563 1.63-1.563h1.261v-2.46s-1.144-.196-2.238-.196c-2.285 0-3.777 1.385-3.777 3.89V10h-2.54v2.89h2.54v6.988c1.035.163 2.09.163 3.124 0v-6.987h2.33z" fill="#fff" />
+														</g>
+														<defs>
+															<clipPath id="clip0_7552_772">
+																<path fill="#fff" d="M0 0h20v20H0z" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+											</li>
+											<li>
+												<div class="social-share linkedin">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_7552_1098)">
+															<path d="M18.524 0H1.476A1.476 1.476 0 000 1.476v17.048A1.476 1.476 0 001.476 20h17.048A1.476 1.476 0 0020 18.524V1.476A1.476 1.476 0 0018.524 0zM5.96 17.038H2.954V7.486h3.007v9.552zM4.456 6.162a1.726 1.726 0 111.736-1.724 1.702 1.702 0 01-1.736 1.724zm12.588 10.884H14.04v-5.218c0-1.54-.654-2.014-1.499-2.014-.891 0-1.766.672-1.766 2.053v5.179H7.767V7.493h2.891v1.324h.04c.29-.588 1.306-1.592 2.858-1.592 1.677 0 3.49.996 3.49 3.912l-.002 5.909z" fill="#69be0a" />
+														</g>
+														<defs>
+															<clipPath id="clip0_7552_1098">
+																<path fill="#fff" d="M0 0h20v20H0z" />
+															</clipPath>
+														</defs>
+													</svg>
+												</div>
+											</li>
+										</ul>
+										<div id="copyLink" data-link="https://esportsmedia.cz/">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_7552_862)">
+													<path d="M4.167 12.5c-.777 0-1.165 0-1.472-.127a1.667 1.667 0 01-.902-.902c-.126-.306-.126-.694-.126-1.471V4.333c0-.933 0-1.4.181-1.756.16-.314.415-.569.729-.729.356-.181.823-.181 1.756-.181H10c.777 0 1.165 0 1.471.126.409.17.733.494.902.902.127.307.127.695.127 1.472m-2.333 14.166h5.5c.933 0 1.4 0 1.756-.181.314-.16.569-.415.729-.729.181-.356.181-.823.181-1.756v-5.5c0-.934 0-1.4-.181-1.757a1.667 1.667 0 00-.729-.728C17.067 7.5 16.6 7.5 15.667 7.5h-5.5c-.934 0-1.4 0-1.757.182-.314.16-.569.414-.728.728-.182.357-.182.823-.182 1.757v5.5c0 .933 0 1.4.182 1.756.16.314.414.569.728.729.357.181.823.181 1.757.181z" stroke="#fff" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+												</g>
+												<defs>
+													<clipPath id="clip0_7552_862">
+														<path fill="#fff" d="M0 0h20v20H0z" />
+													</clipPath>
+												</defs>
+											</svg> Click me to copy link
+										</div>
 									</div>
-									<div class="col-lg-3 col-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
-											<span>+14</span>
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
-										</a>
+									<script>
+										document.addEventListener("DOMContentLoaded", function() {
+											var copyLinkButton = document.getElementById("copyLink");
+											if (copyLinkButton) {
+												copyLinkButton.addEventListener("click", function() {
+													var linkToCopy = this.getAttribute("data-link");
+													var textarea = document.createElement("textarea");
+													textarea.value = linkToCopy;
+													document.body.appendChild(textarea);
+													textarea.select();
+													textarea.setSelectionRange(0, 99999);
+													document.execCommand("copy");
+													document.body.removeChild(textarea);
+												});
+											} else {
+												console.error("Element with id 'copyLink' not found.");
+											}
+										});
+									</script>
+								</div>
+								<div class="article-section__inner">
+									<h5 class="h3 mb-3">
+										Fotogalerie
+									</h5>
+									<div class="article-section__gallery row g-2">
+										<div class="col-lg-3 col-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
+											</a>
+										</div>
+										<div class="col-lg-3 col-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
+											</a>
+										</div>
+										<div class="col-lg-3 col-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
+											</a>
+										</div>
+										<div class="col-lg-3 col-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="article-section__gallery-item">
+												<span>+14</span>
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-		</main>
+				</section>
+			</main>
+		</div>
 
 		<footer class="footer">
 			<div class="container">

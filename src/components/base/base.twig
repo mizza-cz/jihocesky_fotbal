@@ -58,10 +58,12 @@
   </head>
   <body>
     <div class="base">
-      {% include "@components/header/header.twig" %}
-      <main class="main" aria-label="Hlavní obsah">
-        {% block main %}{% endblock %}
-      </main>
+      <div class="base__wrapper">
+        {% include "@components/header/header.twig" %}
+        <main class="main" aria-label="Hlavní obsah">
+          {% block main %}{% endblock %}
+        </main>
+      </div>
 
       {% include "@components/footer/footer.twig" %}
     </div>

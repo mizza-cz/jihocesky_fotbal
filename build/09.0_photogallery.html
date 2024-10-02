@@ -28,180 +28,41 @@
 
 <body>
 	<div class="base">
-		<header class="header w-100 pt-10">
-			<nav class="navbar navbar-expand-lg w-100">
-				<div class="header__top">
-					<div class="container">
-						<div class="d-flex justify-content-between align-items-center">
-							<div class="header__title">
-								<img src="images/content/logo-name.png" loading="lazy" alt="logo" />
-							</div>
-							<ul class="social">
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg width="9" height="18" viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
-											<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#69be0a" fill-rule="nonzero" />
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link social__link--instagram" href="#">
-										<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-											<g fill="none" fill-rule="evenodd">
-												<path d="M0 0h16v16H0z" />
-												<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#69be0a" />
-											</g>
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg fill="#69be0a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
-											<path d="M448 209.91a210.06 210.06 0 01-122.77-39.25v178.72A162.55 162.55 0 11185 188.31v89.89a74.62 74.62 0 1052.23 71.18V0h88a121.18 121.18 0 001.86 22.17A122.18 122.18 0 00381 102.39a121.43 121.43 0 0067 20.14z" />
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
-											<g fill="#69be0a" fill-rule="nonzero">
-												<path d="M15.369 8.226H4.163a3.226 3.226 0 00-3.226 3.226v2.593a3.226 3.226 0 003.226 3.226h11.206a3.226 3.226 0 003.225-3.226v-2.593a3.227 3.227 0 00-3.225-3.226zm-8.852 2.018H5.475v5.177H4.47v-5.177H3.427v-.88h3.09v.88zm2.943 5.177h-.893v-.49a1.91 1.91 0 01-.515.413 1.076 1.076 0 01-.52.142c-.207 0-.36-.065-.466-.2-.104-.133-.157-.33-.157-.598v-3.736h.893v3.428c0 .106.02.182.056.23.038.048.1.07.183.07a.508.508 0 00.249-.094c.101-.063.193-.142.277-.24v-3.394h.893v4.469zm3.241-.923c0 .316-.07.559-.21.728-.14.169-.343.252-.607.252-.176 0-.332-.031-.467-.097a1.148 1.148 0 01-.382-.303v.343h-.904V9.364h.904v1.95c.12-.135.248-.24.382-.31a.877.877 0 01.412-.106c.283 0 .498.095.647.285.15.19.225.47.225.835v2.48zm3.097-1.204H14.09v.842c0 .235.029.398.087.49.06.09.16.135.303.135.148 0 .251-.038.31-.115.058-.078.09-.247.09-.51v-.203h.918v.229c0 .458-.11.803-.337 1.036-.222.23-.556.345-1.001.345-.401 0-.717-.122-.946-.367-.229-.244-.345-.583-.345-1.014v-2.007c0-.386.127-.704.38-.948s.578-.365.978-.365c.409 0 .723.112.942.339.22.226.33.55.33.974v1.14z" />
-												<path d="M14.489 11.623c-.143 0-.244.04-.306.123-.064.079-.093.213-.093.4v.453h.79v-.452c0-.188-.032-.322-.095-.4-.06-.084-.16-.124-.296-.124zM11.408 11.608a.44.44 0 00-.189.043.64.64 0 00-.184.137v2.784a.763.763 0 00.212.159c.068.03.14.048.216.048.11 0 .19-.032.24-.096.052-.063.077-.165.077-.307v-2.308c0-.152-.03-.266-.093-.344a.346.346 0 00-.279-.116zM5.63 6.674h1.132V3.905L8.08 0H6.93l-.701 2.668h-.072L5.422 0h-1.14L5.63 4.03zM9.613 6.798c.457 0 .816-.12 1.077-.36.26-.24.39-.57.39-.99V2.904c0-.374-.133-.683-.398-.92-.266-.238-.607-.358-1.023-.358-.458 0-.822.114-1.092.34-.27.225-.406.528-.406.91v2.552c0 .419.132.75.396.998s.617.372 1.056.372zm-.417-3.959c0-.107.039-.193.114-.261a.446.446 0 01.3-.098c.133 0 .24.032.323.098a.323.323 0 01.122.261v2.682c0 .132-.04.236-.12.311a.453.453 0 01-.325.113c-.132 0-.235-.036-.307-.112a.432.432 0 01-.107-.312V2.839zM12.598 6.746c.189 0 .383-.054.583-.158.202-.105.395-.259.58-.46v.546h1.005V1.751H13.76v3.737a1.392 1.392 0 01-.31.264.583.583 0 01-.28.104c-.095 0-.164-.026-.205-.08-.041-.05-.065-.135-.065-.25V1.75h-1.004v4.114c0 .294.06.513.176.659.119.147.292.222.526.222z" />
-											</g>
-										</svg> </a>
-								</li>
-								<li class="social__item">
-									<a target="_blank" class="social__link" href="#">
-										<svg width="19" height="15" viewBox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
-											<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#69be0a" fill-rule="nonzero" />
-										</svg> </a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="header__bottom">
-					<div class="container">
-						<div class="header__bottom-inner">
-							<div class="collapse navbar-collapse" id="navbarNavDropdown">
-								<ul class="navbar-nav">
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="klub" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Vstupenky
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="klub">
-											<li><a class="dropdown-item" href="#">Profil klubu</a></li>
-											<li><a class="dropdown-item" href="#">Vedení klubu</a></li>
-											<li><a class="dropdown-item" href="#">Kontakty</a></li>
-											<li><a class="dropdown-item" href="#">Stadion</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Další sportoviště</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Historie</a></li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="a-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Klub
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="a-tym">
-											<li><a class="dropdown-item" href="#">Soupiska</a></li>
-											<li><a class="dropdown-item" href="#">Realizační tým</a></li>
-											<li><a class="dropdown-item" href="#">Zápasy</a></li>
-											<li><a class="dropdown-item" href="#">Tabulka</a></li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="b-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											A-tým
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="b-tym">
-											<li><a class="dropdown-item" href="#">Soupiska</a></li>
-											<li><a class="dropdown-item" href="#">Realizační tým</a></li>
-											<li><a class="dropdown-item" href="#">Zápasy</a></li>
-											<li><a class="dropdown-item" href="#">Tabulka</a></li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="mladez" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											B-tým
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="mladez">
-											<li>
-												<a class="dropdown-item" href="#">Základní informace</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Kontakty</a></li>
-											<li><a class="dropdown-item" href="#">Výchova mládeže</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Sportovní centrum</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Sportovní třídy</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Fotbalová školička</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Nábor</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Spolupráce s SDG</a>
-											</li>
-											<li><a class="dropdown-item" href="#">ZŠ Rabasova</a></li>
-											<li><a class="dropdown-item" href="#">Another action</a></li>
-											<li>
-												<a class="dropdown-item" href="#">Something else here</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="fanzona" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Mládež
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="fanzona">
-											<li>
-												<a class="dropdown-item" href="#">Zpravodaje online</a>
-											</li>
-											<li><a class="dropdown-item" href="#">Hráč utkání</a></li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#"> Fanoušci </a>
-									</li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" id="vstupenky" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Partneři
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="vstupenky">
-											<li><a class="dropdown-item" href="#">Permanentky</a></li>
-											<li><a class="dropdown-item" href="#">Vstupenky</a></li>
-											<li><a class="dropdown-item" href="#">On-line prodej</a></li>
-											<li><a class="dropdown-item" href="#">VIP sedadlo</a></li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#"> Fanshop </a>
-									</li>
-								</ul>
+		<div class="base__wrapper">
+			<header class="header w-100 pt-10">
+				<nav class="navbar navbar-expand-lg w-100">
+					<div class="header__top">
+						<div class="container">
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="header__title">
+									<img src="images/content/logo-name.png" loading="lazy" alt="logo" />
+								</div>
 								<ul class="social">
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
 											<svg width="9" height="18" viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
-												<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#fff" fill-rule="nonzero" />
+												<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#69be0a" fill-rule="nonzero" />
 											</svg> </a>
 									</li>
 									<li class="social__item">
-										<a target="_blank" class="social__link" href="#">
+										<a target="_blank" class="social__link social__link--instagram" href="#">
 											<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 												<g fill="none" fill-rule="evenodd">
 													<path d="M0 0h16v16H0z" />
-													<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#fff" />
+													<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#69be0a" />
 												</g>
 											</svg> </a>
 									</li>
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
-											<svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+											<svg fill="#69be0a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
 												<path d="M448 209.91a210.06 210.06 0 01-122.77-39.25v178.72A162.55 162.55 0 11185 188.31v89.89a74.62 74.62 0 1052.23 71.18V0h88a121.18 121.18 0 001.86 22.17A122.18 122.18 0 00381 102.39a121.43 121.43 0 0067 20.14z" />
 											</svg> </a>
 									</li>
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
 											<svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
-												<g fill="#fff" fill-rule="nonzero">
+												<g fill="#69be0a" fill-rule="nonzero">
 													<path d="M15.369 8.226H4.163a3.226 3.226 0 00-3.226 3.226v2.593a3.226 3.226 0 003.226 3.226h11.206a3.226 3.226 0 003.225-3.226v-2.593a3.227 3.227 0 00-3.225-3.226zm-8.852 2.018H5.475v5.177H4.47v-5.177H3.427v-.88h3.09v.88zm2.943 5.177h-.893v-.49a1.91 1.91 0 01-.515.413 1.076 1.076 0 01-.52.142c-.207 0-.36-.065-.466-.2-.104-.133-.157-.33-.157-.598v-3.736h.893v3.428c0 .106.02.182.056.23.038.048.1.07.183.07a.508.508 0 00.249-.094c.101-.063.193-.142.277-.24v-3.394h.893v4.469zm3.241-.923c0 .316-.07.559-.21.728-.14.169-.343.252-.607.252-.176 0-.332-.031-.467-.097a1.148 1.148 0 01-.382-.303v.343h-.904V9.364h.904v1.95c.12-.135.248-.24.382-.31a.877.877 0 01.412-.106c.283 0 .498.095.647.285.15.19.225.47.225.835v2.48zm3.097-1.204H14.09v.842c0 .235.029.398.087.49.06.09.16.135.303.135.148 0 .251-.038.31-.115.058-.078.09-.247.09-.51v-.203h.918v.229c0 .458-.11.803-.337 1.036-.222.23-.556.345-1.001.345-.401 0-.717-.122-.946-.367-.229-.244-.345-.583-.345-1.014v-2.007c0-.386.127-.704.38-.948s.578-.365.978-.365c.409 0 .723.112.942.339.22.226.33.55.33.974v1.14z" />
 													<path d="M14.489 11.623c-.143 0-.244.04-.306.123-.064.079-.093.213-.093.4v.453h.79v-.452c0-.188-.032-.322-.095-.4-.06-.084-.16-.124-.296-.124zM11.408 11.608a.44.44 0 00-.189.043.64.64 0 00-.184.137v2.784a.763.763 0 00.212.159c.068.03.14.048.216.048.11 0 .19-.032.24-.096.052-.063.077-.165.077-.307v-2.308c0-.152-.03-.266-.093-.344a.346.346 0 00-.279-.116zM5.63 6.674h1.132V3.905L8.08 0H6.93l-.701 2.668h-.072L5.422 0h-1.14L5.63 4.03zM9.613 6.798c.457 0 .816-.12 1.077-.36.26-.24.39-.57.39-.99V2.904c0-.374-.133-.683-.398-.92-.266-.238-.607-.358-1.023-.358-.458 0-.822.114-1.092.34-.27.225-.406.528-.406.91v2.552c0 .419.132.75.396.998s.617.372 1.056.372zm-.417-3.959c0-.107.039-.193.114-.261a.446.446 0 01.3-.098c.133 0 .24.032.323.098a.323.323 0 01.122.261v2.682c0 .132-.04.236-.12.311a.453.453 0 01-.325.113c-.132 0-.235-.036-.307-.112a.432.432 0 01-.107-.312V2.839zM12.598 6.746c.189 0 .383-.054.583-.158.202-.105.395-.259.58-.46v.546h1.005V1.751H13.76v3.737a1.392 1.392 0 01-.31.264.583.583 0 01-.28.104c-.095 0-.164-.026-.205-.08-.041-.05-.065-.135-.065-.25V1.75h-1.004v4.114c0 .294.06.513.176.659.119.147.292.222.526.222z" />
 												</g>
@@ -210,194 +71,335 @@
 									<li class="social__item">
 										<a target="_blank" class="social__link" href="#">
 											<svg width="19" height="15" viewBox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
-												<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#fff" fill-rule="nonzero" />
+												<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#69be0a" fill-rule="nonzero" />
 											</svg> </a>
 									</li>
 								</ul>
-								<a href="#" class="header__search">
-									<img src="images/ico/search.svg" alt="" />
-								</a>
 							</div>
-							<button class="c-header__opener js-header__opener" type="button">
-								<span></span>
-							</button>
 						</div>
 					</div>
-				</div>
-			</nav>
-		</header>
-		<main class="main" aria-label="Hlavní obsah">
-			<section class="gallery-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-10 mx-auto">
-							<div class="gallery-section__inner">
-								<h1 class="h1 mb-4">Fotogalerie</h1>
-								<div class="header-section">
-									<form action="/article/" method="get" class="header-section__form header-section__label">
-										<div class="row gy-3 align-items-end">
-											<div class="col-md-5">
-												<div class="header-section__category">Vyhledávání</div>
-												<div class="header-section__input">
-													<input type="text" name="search" placeholder="Hledaný text" />
-													<button type="submit" class="header-section__btn">
-														<img src="images/ico/search-menu.svg" loading="lazy" alt="search-menu" />
+					<div class="header__bottom">
+						<div class="container">
+							<div class="header__bottom-inner">
+								<div class="collapse navbar-collapse" id="navbarNavDropdown">
+									<ul class="navbar-nav">
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="klub" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Vstupenky
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="klub">
+												<li><a class="dropdown-item" href="#">Profil klubu</a></li>
+												<li><a class="dropdown-item" href="#">Vedení klubu</a></li>
+												<li><a class="dropdown-item" href="#">Kontakty</a></li>
+												<li><a class="dropdown-item" href="#">Stadion</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Další sportoviště</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Historie</a></li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="a-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Klub
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="a-tym">
+												<li><a class="dropdown-item" href="#">Soupiska</a></li>
+												<li><a class="dropdown-item" href="#">Realizační tým</a></li>
+												<li><a class="dropdown-item" href="#">Zápasy</a></li>
+												<li><a class="dropdown-item" href="#">Tabulka</a></li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="b-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												A-tým
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="b-tym">
+												<li><a class="dropdown-item" href="#">Soupiska</a></li>
+												<li><a class="dropdown-item" href="#">Realizační tým</a></li>
+												<li><a class="dropdown-item" href="#">Zápasy</a></li>
+												<li><a class="dropdown-item" href="#">Tabulka</a></li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="mladez" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												B-tým
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="mladez">
+												<li>
+													<a class="dropdown-item" href="#">Základní informace</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Kontakty</a></li>
+												<li><a class="dropdown-item" href="#">Výchova mládeže</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Sportovní centrum</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Sportovní třídy</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Fotbalová školička</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Nábor</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Spolupráce s SDG</a>
+												</li>
+												<li><a class="dropdown-item" href="#">ZŠ Rabasova</a></li>
+												<li><a class="dropdown-item" href="#">Another action</a></li>
+												<li>
+													<a class="dropdown-item" href="#">Something else here</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="fanzona" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Mládež
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="fanzona">
+												<li>
+													<a class="dropdown-item" href="#">Zpravodaje online</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Hráč utkání</a></li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#"> Fanoušci </a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="vstupenky" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Partneři
+											</a>
+											<ul class="dropdown-menu" aria-labelledby="vstupenky">
+												<li><a class="dropdown-item" href="#">Permanentky</a></li>
+												<li><a class="dropdown-item" href="#">Vstupenky</a></li>
+												<li><a class="dropdown-item" href="#">On-line prodej</a></li>
+												<li><a class="dropdown-item" href="#">VIP sedadlo</a></li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#"> Fanshop </a>
+										</li>
+									</ul>
+									<ul class="social">
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="9" height="18" viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.081 5.631H5.33V3.826c0-.677.45-.835.766-.835h1.942V.01L5.362 0c-2.97 0-3.645 2.223-3.645 3.645v1.986H0v3.071h1.717v8.69H5.33v-8.69h2.437l.315-3.07z" fill="#fff" fill-rule="nonzero" />
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+													<g fill="none" fill-rule="evenodd">
+														<path d="M0 0h16v16H0z" />
+														<path d="M13.23 3.73a.96.96 0 11-1.92 0 .96.96 0 011.92 0zM8 10.667a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm0-2.45c2.136 0 2.39.008 3.233.046.78.036 1.203.166 1.485.276.373.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.486.038.843.047 1.096.047 3.232s-.008 2.39-.047 3.233c-.036.78-.166 1.204-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.454-.92.599-.282.11-.705.24-1.485.275-.844.039-1.097.047-3.233.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.479 2.479 0 01-.92-.599 2.479 2.479 0 01-.599-.92c-.11-.281-.24-.705-.275-1.485-.039-.844-.047-1.097-.047-3.233s.008-2.389.047-3.232c.036-.78.166-1.204.275-1.486.146-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.046 3.233-.046zM8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.92 3.92 0 00-1.417.923A3.92 3.92 0 00.42 2.76C.222 3.269.087 3.85.048 4.702.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.445.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923 3.9 3.9 0 00.923-1.417c.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.922 3.922 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0z" fill="#fff" />
+													</g>
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+													<path d="M448 209.91a210.06 210.06 0 01-122.77-39.25v178.72A162.55 162.55 0 11185 188.31v89.89a74.62 74.62 0 1052.23 71.18V0h88a121.18 121.18 0 001.86 22.17A122.18 122.18 0 00381 102.39a121.43 121.43 0 0067 20.14z" />
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
+													<g fill="#fff" fill-rule="nonzero">
+														<path d="M15.369 8.226H4.163a3.226 3.226 0 00-3.226 3.226v2.593a3.226 3.226 0 003.226 3.226h11.206a3.226 3.226 0 003.225-3.226v-2.593a3.227 3.227 0 00-3.225-3.226zm-8.852 2.018H5.475v5.177H4.47v-5.177H3.427v-.88h3.09v.88zm2.943 5.177h-.893v-.49a1.91 1.91 0 01-.515.413 1.076 1.076 0 01-.52.142c-.207 0-.36-.065-.466-.2-.104-.133-.157-.33-.157-.598v-3.736h.893v3.428c0 .106.02.182.056.23.038.048.1.07.183.07a.508.508 0 00.249-.094c.101-.063.193-.142.277-.24v-3.394h.893v4.469zm3.241-.923c0 .316-.07.559-.21.728-.14.169-.343.252-.607.252-.176 0-.332-.031-.467-.097a1.148 1.148 0 01-.382-.303v.343h-.904V9.364h.904v1.95c.12-.135.248-.24.382-.31a.877.877 0 01.412-.106c.283 0 .498.095.647.285.15.19.225.47.225.835v2.48zm3.097-1.204H14.09v.842c0 .235.029.398.087.49.06.09.16.135.303.135.148 0 .251-.038.31-.115.058-.078.09-.247.09-.51v-.203h.918v.229c0 .458-.11.803-.337 1.036-.222.23-.556.345-1.001.345-.401 0-.717-.122-.946-.367-.229-.244-.345-.583-.345-1.014v-2.007c0-.386.127-.704.38-.948s.578-.365.978-.365c.409 0 .723.112.942.339.22.226.33.55.33.974v1.14z" />
+														<path d="M14.489 11.623c-.143 0-.244.04-.306.123-.064.079-.093.213-.093.4v.453h.79v-.452c0-.188-.032-.322-.095-.4-.06-.084-.16-.124-.296-.124zM11.408 11.608a.44.44 0 00-.189.043.64.64 0 00-.184.137v2.784a.763.763 0 00.212.159c.068.03.14.048.216.048.11 0 .19-.032.24-.096.052-.063.077-.165.077-.307v-2.308c0-.152-.03-.266-.093-.344a.346.346 0 00-.279-.116zM5.63 6.674h1.132V3.905L8.08 0H6.93l-.701 2.668h-.072L5.422 0h-1.14L5.63 4.03zM9.613 6.798c.457 0 .816-.12 1.077-.36.26-.24.39-.57.39-.99V2.904c0-.374-.133-.683-.398-.92-.266-.238-.607-.358-1.023-.358-.458 0-.822.114-1.092.34-.27.225-.406.528-.406.91v2.552c0 .419.132.75.396.998s.617.372 1.056.372zm-.417-3.959c0-.107.039-.193.114-.261a.446.446 0 01.3-.098c.133 0 .24.032.323.098a.323.323 0 01.122.261v2.682c0 .132-.04.236-.12.311a.453.453 0 01-.325.113c-.132 0-.235-.036-.307-.112a.432.432 0 01-.107-.312V2.839zM12.598 6.746c.189 0 .383-.054.583-.158.202-.105.395-.259.58-.46v.546h1.005V1.751H13.76v3.737a1.392 1.392 0 01-.31.264.583.583 0 01-.28.104c-.095 0-.164-.026-.205-.08-.041-.05-.065-.135-.065-.25V1.75h-1.004v4.114c0 .294.06.513.176.659.119.147.292.222.526.222z" />
+													</g>
+												</svg> </a>
+										</li>
+										<li class="social__item">
+											<a target="_blank" class="social__link" href="#">
+												<svg width="19" height="15" viewBox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
+													<path d="M18.081 1.732a7.348 7.348 0 01-2.12.58A3.7 3.7 0 0017.583.27a7.392 7.392 0 01-2.345.896 3.693 3.693 0 00-6.292 3.368A10.485 10.485 0 011.335.676c-.318.545-.5 1.18-.5 1.857a3.69 3.69 0 001.642 3.073 3.682 3.682 0 01-1.672-.462v.047a3.696 3.696 0 002.962 3.621 3.713 3.713 0 01-1.668.063 3.697 3.697 0 003.45 2.564A7.408 7.408 0 01.08 12.97a10.45 10.45 0 005.661 1.659C12.535 14.628 16.25 9 16.25 4.12c0-.16-.003-.32-.01-.478a7.48 7.48 0 001.842-1.911z" fill="#fff" fill-rule="nonzero" />
+												</svg> </a>
+										</li>
+									</ul>
+									<a href="#" class="header__search">
+										<img src="images/ico/search.svg" alt="" />
+									</a>
+								</div>
+								<button class="c-header__opener js-header__opener" type="button">
+									<span></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<main class="main" aria-label="Hlavní obsah">
+				<section class="gallery-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-10 mx-auto">
+								<div class="gallery-section__inner">
+									<h1 class="h1 mb-4">Fotogalerie</h1>
+									<div class="header-section">
+										<form action="/article/" method="get" class="header-section__form header-section__label">
+											<div class="row gy-3 align-items-end">
+												<div class="col-md-5">
+													<div class="header-section__category">Vyhledávání</div>
+													<div class="header-section__input">
+														<input type="text" name="search" placeholder="Hledaný text" />
+														<button type="submit" class="header-section__btn">
+															<img src="images/ico/search-menu.svg" loading="lazy" alt="search-menu" />
+														</button>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-5">
+													<div class="o-select header-section__label">
+														<div class="header-section__category">Kategorie</div>
+														<select name="category" class="js-select">
+															<option value="">Kategorie</option>
+															<option value="aktualni-zpravy">Aktuální zprávy</option>
+															<option value="rozhovory">Rozhovory</option>
+															<!-- další options -->
+														</select>
+													</div>
+												</div>
+												<div class="col-md-2 col-sm-4">
+													<div class="o-select header-section__label">
+														<div class="header-section__category">Měsíc</div>
+														<select name="month" class="js-select">
+															<option value="">Měsíc</option>
+															<option value="1">leden</option>
+															<option value="2">únor</option>
+															<!-- další options -->
+														</select>
+													</div>
+												</div>
+												<div class="col-md-2 col-sm-3">
+													<button class="header-section__form-btn" type="submit">
+														Hledat
 													</button>
 												</div>
 											</div>
-											<div class="col-md-3 col-sm-5">
-												<div class="o-select header-section__label">
-													<div class="header-section__category">Kategorie</div>
-													<select name="category" class="js-select">
-														<option value="">Kategorie</option>
-														<option value="aktualni-zpravy">Aktuální zprávy</option>
-														<option value="rozhovory">Rozhovory</option>
-														<!-- další options -->
-													</select>
+										</form>
+									</div>
+									<div class="row gy-4 mb-lg-4 mb-2">
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="3" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">
+															René Piegl po návratu domů: Jsem strašně rád za zápas
+															strašně rád za zápas
+														</h3>
+													</div>
 												</div>
-											</div>
-											<div class="col-md-2 col-sm-4">
-												<div class="o-select header-section__label">
-													<div class="header-section__category">Měsíc</div>
-													<select name="month" class="js-select">
-														<option value="">Měsíc</option>
-														<option value="1">leden</option>
-														<option value="2">únor</option>
-														<!-- další options -->
-													</select>
-												</div>
-											</div>
-											<div class="col-md-2 col-sm-3">
-												<button class="header-section__form-btn" type="submit">
-													Hledat
-												</button>
-											</div>
+											</a>
 										</div>
-									</form>
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17082856210344-173-img-8561.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">
+															René Piegl po návratu domů: Jsem strašně rád za zápas
+														</h3>
+													</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="1" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17079858630827-173-image-123650291.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">René Piegl po návratu</h3>
+													</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="5" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080781394683-173-dsc04393.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">
+															René Piegl po návratu domů: Jsem strašně rád za zápas po
+															návratu domů: Jsem strašně rád za zápas
+														</h3>
+													</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="3" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">
+															René Piegl po návratu domů: Jsem strašně rád za zápas
+															strašně rád za zápas
+														</h3>
+													</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17082856210344-173-img-8561.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">
+															René Piegl po návratu domů: Jsem strašně rád za zápas
+														</h3>
+													</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="1" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17079858630827-173-image-123650291.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">René Piegl po návratu</h3>
+													</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xl-4 col-md-6">
+											<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="5" href="#" class="boardGallery__item">
+												<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080781394683-173-dsc04393.jpg" loading="lazy" alt="" />
+												<div class="boardGallery__box">
+													<div class="boardGallery__content">
+														<h3 class="boardGallery__title">
+															René Piegl po návratu domů: Jsem strašně rád za zápas po
+															návratu domů: Jsem strašně rád za zápas
+														</h3>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<nav aria-label="Další stránky">
+										<ul class="pagination d-flex flex-wrap pagination-flat pagination-success">
+											<li class="page-item active">
+												<a class="page-link" href="#" data-abc="true">1</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#" data-abc="true">2</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#" data-abc="true">3</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#" data-abc="true">4</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#" data-abc="true"> »</a>
+											</li>
+										</ul>
+									</nav>
 								</div>
-								<div class="row gy-4 mb-lg-4 mb-2">
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="3" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">
-														René Piegl po návratu domů: Jsem strašně rád za zápas
-														strašně rád za zápas
-													</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17082856210344-173-img-8561.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">
-														René Piegl po návratu domů: Jsem strašně rád za zápas
-													</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="1" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17079858630827-173-image-123650291.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">René Piegl po návratu</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="5" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080781394683-173-dsc04393.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">
-														René Piegl po návratu domů: Jsem strašně rád za zápas po
-														návratu domů: Jsem strašně rád za zápas
-													</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="3" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080954818168-173-img-8542-cr.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">
-														René Piegl po návratu domů: Jsem strašně rád za zápas
-														strašně rád za zápas
-													</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="2" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17082856210344-173-img-8561.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">
-														René Piegl po návratu domů: Jsem strašně rád za zápas
-													</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="1" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17079858630827-173-image-123650291.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">René Piegl po návratu</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-xl-4 col-md-6">
-										<a data-source="/sk-kladno/build/ajax-gallery.json" data-gallery-id="5" href="#" class="boardGallery__item">
-											<img src="https://www.jihoceskyfotbal.cz/files/drbna/images/page/size5-17080781394683-173-dsc04393.jpg" loading="lazy" alt="" />
-											<div class="boardGallery__box">
-												<div class="boardGallery__content">
-													<h3 class="boardGallery__title">
-														René Piegl po návratu domů: Jsem strašně rád za zápas po
-														návratu domů: Jsem strašně rád za zápas
-													</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<nav aria-label="Další stránky">
-									<ul class="pagination d-flex flex-wrap pagination-flat pagination-success">
-										<li class="page-item active">
-											<a class="page-link" href="#" data-abc="true">1</a>
-										</li>
-										<li class="page-item">
-											<a class="page-link" href="#" data-abc="true">2</a>
-										</li>
-										<li class="page-item">
-											<a class="page-link" href="#" data-abc="true">3</a>
-										</li>
-										<li class="page-item">
-											<a class="page-link" href="#" data-abc="true">4</a>
-										</li>
-										<li class="page-item">
-											<a class="page-link" href="#" data-abc="true"> »</a>
-										</li>
-									</ul>
-								</nav>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-		</main>
+				</section>
+			</main>
+		</div>
 
 		<footer class="footer">
 			<div class="container">

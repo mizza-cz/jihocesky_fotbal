@@ -66,3 +66,19 @@ textarea,
 select {
   font: inherit;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.base{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.base__wrapper{
+  flex: 1 0 auto;
+}
