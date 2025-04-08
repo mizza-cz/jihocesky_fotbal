@@ -11,7 +11,43 @@
               class="header-section__form header-section__label"
             >
               <div class="row gy-3 align-items-end">
-                <div class="col-md-5">
+                <div class="col-md-4">
+                  <div class="o-select header-section__label">
+                    <div class="header-section__category">Kategorie</div>
+                    <select name="category" class="js-select">
+                      <option value="">Kategorie</option>
+                      <option value="aktualni-zpravy">Aktuální zprávy</option>
+                      <option value="rozhovory">Rozhovory</option>
+                      <!-- další options -->
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="o-select header-section__label">
+                    <div class="header-section__category">Soutěž</div>
+                    <select name="month" class="js-select">
+                      <option value="">Soutěž</option>
+                      <option value="1">Soutěž 1</option>
+                      <option value="2">Soutěž 2</option>
+                      <option value="1">Soutěž 1</option>
+                      <option value="2">Soutěž 2</option>
+                      <!-- další options -->
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="o-select header-section__label">
+                    <div class="header-section__category">Měsíc</div>
+                    <select name="month" class="js-select">
+                      <option value="">Měsíc</option>
+                      <option value="1">leden</option>
+                      <option value="2">únor</option>
+                      <!-- další options -->
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-sm-9">
                   <div class="header-section__category">Vyhledávání</div>
                   <div class="header-section__input">
                     <input
@@ -28,29 +64,7 @@
                     </button>
                   </div>
                 </div>
-                <div class="col-md-3 col-sm-5">
-                  <div class="o-select header-section__label">
-                    <div class="header-section__category">Kategorie</div>
-                    <select name="category" class="js-select">
-                      <option value="">Kategorie</option>
-                      <option value="aktualni-zpravy">Aktuální zprávy</option>
-                      <option value="rozhovory">Rozhovory</option>
-                      <!-- další options -->
-                    </select>
-                  </div>
-                </div>
-                <div class="col-md-2 col-sm-4">
-                  <div class="o-select header-section__label">
-                    <div class="header-section__category">Měsíc</div>
-                    <select name="month" class="js-select">
-                      <option value="">Měsíc</option>
-                      <option value="1">leden</option>
-                      <option value="2">únor</option>
-                      <!-- další options -->
-                    </select>
-                  </div>
-                </div>
-                <div class="col-md-2 col-sm-3">
+                <div class="col-sm-3">
                   <button class="header-section__form-btn" type="submit">
                     Hledat
                   </button>

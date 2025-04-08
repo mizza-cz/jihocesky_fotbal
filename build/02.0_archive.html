@@ -237,16 +237,7 @@
 									<div class="header-section">
 										<form action="/article/" method="get" class="header-section__form header-section__label">
 											<div class="row gy-3 align-items-end">
-												<div class="col-md-5">
-													<div class="header-section__category">Vyhledávání</div>
-													<div class="header-section__input">
-														<input type="text" name="search" placeholder="Hledaný text" />
-														<button type="submit" class="header-section__btn">
-															<img src="images/ico/search-menu.svg" loading="lazy" alt="search-menu" />
-														</button>
-													</div>
-												</div>
-												<div class="col-md-3 col-sm-5">
+												<div class="col-md-4">
 													<div class="o-select header-section__label">
 														<div class="header-section__category">Kategorie</div>
 														<select name="category" class="js-select">
@@ -257,7 +248,20 @@
 														</select>
 													</div>
 												</div>
-												<div class="col-md-2 col-sm-4">
+												<div class="col-md-4">
+													<div class="o-select header-section__label">
+														<div class="header-section__category">Soutěž</div>
+														<select name="month" class="js-select">
+															<option value="">Soutěž</option>
+															<option value="1">Soutěž 1</option>
+															<option value="2">Soutěž 2</option>
+															<option value="1">Soutěž 1</option>
+															<option value="2">Soutěž 2</option>
+															<!-- další options -->
+														</select>
+													</div>
+												</div>
+												<div class="col-md-4">
 													<div class="o-select header-section__label">
 														<div class="header-section__category">Měsíc</div>
 														<select name="month" class="js-select">
@@ -268,7 +272,17 @@
 														</select>
 													</div>
 												</div>
-												<div class="col-md-2 col-sm-3">
+
+												<div class="col-sm-9">
+													<div class="header-section__category">Vyhledávání</div>
+													<div class="header-section__input">
+														<input type="text" name="search" placeholder="Hledaný text" />
+														<button type="submit" class="header-section__btn">
+															<img src="images/ico/search-menu.svg" loading="lazy" alt="search-menu" />
+														</button>
+													</div>
+												</div>
+												<div class="col-sm-3">
 													<button class="header-section__form-btn" type="submit">
 														Hledat
 													</button>
@@ -288,12 +302,17 @@
 													</div>
 													<div class="col-lg-6">
 														<div class="post-width__info">
-															<div class="post__date">24. 3. 2023</div>
+															<div class="d-flex align-content-center flex-wrap">
+																<div class="post__date">18 : 00</div>
+
+																<div class="post__date">16. 2. 2024</div>
+															</div>
 															<h2 class="h2">
 																<a href="#">
 																	Vysočina se v dramatické bitvě musela spokojit s bodem
 																</a>
 															</h2>
+															<div class="fw-semibold p1">Author článku</div>
 														</div>
 													</div>
 												</div>
@@ -310,12 +329,17 @@
 													</div>
 													<div class="col-lg-6">
 														<div class="post-width__info">
-															<div class="post__date">24. 3. 2023</div>
+															<div class="d-flex align-content-center flex-wrap">
+																<div class="post__date">18 : 00</div>
+
+																<div class="post__date">16. 2. 2024</div>
+															</div>
 															<h2 class="h2">
 																<a href="#">
 																	Vysočina se v dramatické bitvě musela spokojit s bodem
 																</a>
 															</h2>
+															<div class="fw-semibold p1">Author článku</div>
 														</div>
 													</div>
 												</div>
@@ -332,12 +356,17 @@
 													</div>
 													<div class="col-lg-6">
 														<div class="post-width__info">
-															<div class="post__date">24. 3. 2023</div>
+															<div class="d-flex align-content-center flex-wrap">
+																<div class="post__date">18 : 00</div>
+
+																<div class="post__date">16. 2. 2024</div>
+															</div>
 															<h2 class="h2">
 																<a href="#">
 																	Vysočina se v dramatické bitvě musela spokojit s bodem
 																</a>
 															</h2>
+															<div class="fw-semibold p1">Author článku</div>
 														</div>
 													</div>
 												</div>
@@ -354,12 +383,17 @@
 													</div>
 													<div class="col-lg-6">
 														<div class="post-width__info">
-															<div class="post__date">24. 3. 2023</div>
+															<div class="d-flex align-content-center flex-wrap">
+																<div class="post__date">18 : 00</div>
+
+																<div class="post__date">16. 2. 2024</div>
+															</div>
 															<h2 class="h2">
 																<a href="#">
 																	Vysočina se v dramatické bitvě musela spokojit s bodem
 																</a>
 															</h2>
+															<div class="fw-semibold p1">Author článku</div>
 														</div>
 													</div>
 												</div>
@@ -376,12 +410,17 @@
 													</div>
 													<div class="col-lg-6">
 														<div class="post-width__info">
-															<div class="post__date">24. 3. 2023</div>
+															<div class="d-flex align-content-center flex-wrap">
+																<div class="post__date">18 : 00</div>
+
+																<div class="post__date">16. 2. 2024</div>
+															</div>
 															<h2 class="h2">
 																<a href="#">
 																	Vysočina se v dramatické bitvě musela spokojit s bodem
 																</a>
 															</h2>
+															<div class="fw-semibold p1">Author článku</div>
 														</div>
 													</div>
 												</div>
@@ -460,10 +499,16 @@
 											<div class="tag tag--primary">NOVINKY</div>
 										</div>
 										<div class="post__info">
-											<div class="post__date">16. 2. 2024</div>
+											<div class="d-flex align-content-center flex-wrap">
+												<div class="post__date">18 : 00</div>
+
+												<div class="post__date">16. 2. 2024</div>
+											</div>
+
 											<h3 class="h4">
 												GENERÁLKA PŘED EXTRALIGOU! NA HANOU ZAVÍTÁ HRADEC KRÁLOVÉ
 											</h3>
+											<div class="fw-medium mt-1 text-light">Author článku</div>
 										</div>
 									</a>
 								</aside>

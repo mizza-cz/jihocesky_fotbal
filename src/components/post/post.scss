@@ -100,3 +100,19 @@
     }
   }
 }
+
+.post,
+.post-width {
+  .post__date + .post__date {
+    position: relative;
+    padding-left: 8px;
+    margin-left: 6px;
+    &::before {
+      content: "|";
+      position: absolute;
+      left: 0;
+      font-size: 16px;
+      color: var(--color-primary);
+    }
+  }
+}
