@@ -32,6 +32,17 @@
     justify-content: space-between;
     align-items: center;
   }
+  .topstory__item {
+    aspect-ratio: 1920/940;
+    @include media-breakpoint-down(lg) {
+      aspect-ratio: 750/750;
+    }
+  }
+  .topstory__title {
+    @include media-breakpoint-down(md) {
+      font-size: 1.7rem;
+    }
+  }
   .topstory__content {
     margin-bottom: 0;
   }
