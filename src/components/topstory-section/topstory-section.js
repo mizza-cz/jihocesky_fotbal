@@ -1,10 +1,12 @@
-$(".topstory").slick({
-  infinite: !0,
+$("#topstory").slick({
+  infinite: true,
   arrows: !1,
   dots: !0,
-  autoplay: !1,
+  autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  autoplaySpeed: 2500,
+  speed: 250,
 });
 
 $(".topstoryNews__slider").slick({
