@@ -1,6 +1,4 @@
 .partnersSlider__inner {
-  margin-bottom: 60px;
-  padding-top: 40px;
   a {
     display: flex;
     justify-content: center;
@@ -13,4 +11,9 @@
       object-fit: contain;
     }
   }
+}
+.partnersSlider {
+  padding-top: 40px;
+  background-color: var(--color-light);
+  padding-bottom: 60px;
 }
