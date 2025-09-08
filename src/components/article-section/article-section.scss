@@ -34,11 +34,13 @@
   }
   .topstory__item {
     aspect-ratio: 1920/940;
+
     @include media-breakpoint-down(lg) {
       aspect-ratio: 750/750;
     }
   }
   .topstory__title {
+    text-decoration: none !important;
     @include media-breakpoint-down(md) {
       font-size: 1.7rem;
     }

@@ -40,7 +40,7 @@
     }
   }
   &__title {
-    height: 60px;
+    height: 48px;
     //  padding-left: 11rem;
     img {
       width: 100%;
@@ -52,9 +52,13 @@
     background: var(--color-light);
     overflow: hidden;
     padding-bottom: 10px;
-    padding-top: 4px;
+    padding-top: 10px;
     @include media-breakpoint-down(lg) {
       display: none;
+    }
+    .pub {
+      display: block;
+      max-width: 420px;
     }
   }
   &__bottom {

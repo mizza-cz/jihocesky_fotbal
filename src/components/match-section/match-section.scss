@@ -7,7 +7,9 @@
     justify-content: space-between;
     align-items: center;
   }
-
+  .topstory__title {
+    text-decoration: none !important;
+  }
   .topstory__content {
     margin-bottom: 0;
   }

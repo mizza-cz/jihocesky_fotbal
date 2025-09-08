@@ -27,7 +27,7 @@
 
     display: block;
     position: relative;
-
+    text-decoration: none;
     &:hover {
       h1 {
         text-decoration-color: var(--color-light);
@@ -114,6 +114,7 @@
     text-decoration: underline;
     transition: all 0.3s;
     text-decoration-color: transparent;
+    text-shadow: 5px 5px 10px black;
     @include media-breakpoint-down(lg) {
       font-size: 32px;
     }
@@ -194,4 +195,7 @@
   }
   .slick-track {
   }
+}
+.text-shadow {
+  text-shadow: 6px 6px 12px black !important;
 }

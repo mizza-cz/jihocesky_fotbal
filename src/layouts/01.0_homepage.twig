@@ -1,13 +1,5 @@
 {% extends "@components/base/base.twig" %} {% set title = "01.0_homepage" %} {%
-block main %}
-<div class="my-4">
-  <div class="container">
-    <a class="pub" href="#" target="_blank">
-      <img src="images/content/bb.png" loading="lazy" alt="" />
-    </a>
-  </div>
-</div>
-{% include "@components/topstory-section/topstory-section.twig" %}
+block main %} {% include "@components/topstory-section/topstory-section.twig" %}
 <div class="my-4">{% include "@components/scoreboard/scoreboard.twig" %}</div>
 {% include "@components/hp-posts/hp-posts.twig" %} {% include
 "@components/hp-statistics/hp-statistics.twig" %} {% include
