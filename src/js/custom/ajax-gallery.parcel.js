@@ -5,10 +5,20 @@
 function openGallery(data, start) {
   if (!data) return;
 
+  const images = data.map((item) => item.image);
+  const captions = data.map((item) => {
+    return `
+      <div style="background: rgba(0,0,0,0.7); color: white; padding: 10px; text-align: left;">
+        <div>© ${item.caption}</div>
+        <div style="font-size: 0.85em; margin-top: 4px;">${item.date}</div>
+      </div>
+    `;
+  });
+
   const lightbox = new FsLightbox();
-  lightbox.props.sources = data;
+  lightbox.props.sources = images;
+  lightbox.props.captions = captions;
   lightbox.props.type = "image";
-  lightbox.props.showThumbsOnMount = true;
   lightbox.open(start ?? 0);
 }
 

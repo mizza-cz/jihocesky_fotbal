@@ -1,14 +1,37 @@
 [
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800",
-    "https://picsum.photos/1200/800"
+    {
+        "image": "https://picsum.photos/1200/800",
+        "caption": "Jaroslav Novák",
+        "date": "12.12.2025"
+    },
+    {
+        "image": "https://picsum.photos/1200/800",
+        "caption": "Author fotky 2",
+        "date": "12.12.2025"
+    },
+    {
+        "image": "https://picsum.photos/1200/800",
+        "caption": "Author fotky 3",
+        "date": "12.12.2025"
+    },
+    {
+        "image": "https://picsum.photos/1200/800",
+        "caption": "Author fotky 4",
+        "date": "12.12.2025"
+    },
+    {
+        "image": "https://picsum.photos/1200/800",
+        "caption": "Author fotky 5",
+        "date": "12.12.2025"
+    },
+    {
+        "image": "https://picsum.photos/1200/800",
+        "caption": "Author fotky 6",
+        "date": "12.12.2025"
+    },
+    {
+        "image": "https://picsum.photos/1200/800",
+        "caption": "Author fotky 7",
+        "date": "12.12.2025"
+    }
 ]
