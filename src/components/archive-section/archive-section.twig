@@ -154,7 +154,17 @@
               </li>
             </ul>
           </div>
-          {% include "@components/post/post.twig" %}
+          <a href="#" class="pub">
+            <img src="images/content/aside-bb.jpg" alt="pub" />
+          </a>
+          <h2 class="h2 mt-4 mb-3">Další články</h2>
+
+          <div class="d-flex flex-column gap-4">
+            {% include "@components/post/post.twig" %}{% include
+            "@components/post/post.twig" %} {% include
+            "@components/post/post.twig" %} {% include
+            "@components/post/post.twig" %}
+          </div>
         </aside>
       </div>
     </div>
