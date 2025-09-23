@@ -2,20 +2,33 @@
   <nav class="navbar navbar-expand-lg w-100">
     <div class="header__top">
       <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
+        <div
+          class="d-flex justify-content-lg-between justify-content-center align-items-center"
+        >
           <div class="header__title">
             <img src="images/content/logo-name.png" loading="lazy" alt="logo" />
           </div>
           <a class="pub" href="#" target="_blank">
             <img src="images/content/header-bb.gif" loading="lazy" alt="" />
           </a>
-          {% include "@components/social/social.twig" %}
+          <div class="d-lg-block d-none">
+            {% include "@components/social/social.twig" %}
+          </div>
         </div>
       </div>
     </div>
     <div class="header__bottom">
       <div class="container">
         <div class="header__bottom-inner">
+          <a href="#" class="d-lg-none d-block">
+            <img
+              src="images/content/mob-logo.png"
+              height="40"
+              class="object-fit-contain"
+              loading="lazy"
+              alt="logo"
+            />
+          </a>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
